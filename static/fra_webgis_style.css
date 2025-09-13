@@ -1,0 +1,595 @@
+/* FRA WebGIS Integration - Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+header p {
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 400px;
+    background: white;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-panel {
+    padding: 20px;
+}
+
+.control-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.control-section:last-child {
+    border-bottom: none;
+}
+
+.control-section h3 {
+    color: #2c5530;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+/* Quick Stats */
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.stat-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+    transition: all 0.2s;
+}
+
+.stat-card:hover {
+    background: #e9ecef;
+    transform: translateY(-2px);
+}
+
+.stat-value {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2c5530;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.filter-group select,
+.filter-group input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    font-size: 0.9em;
+}
+
+.filter-group select:focus,
+.filter-group input:focus {
+    outline: none;
+    border-color: #2c5530;
+    box-shadow: 0 0 0 2px rgba(44, 85, 48, 0.2);
+}
+
+.filter-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Analytics Panel */
+.analytics-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Layer Controls */
+.layer-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.layer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #e9ecef;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.layer-item:hover {
+    background: #e9ecef;
+}
+
+.layer-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #2c5530;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1e3a21;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+.btn-info {
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background: #138496;
+}
+
+.btn-small {
+    padding: 6px 12px;
+    font-size: 0.8em;
+}
+
+/* Map Container */
+.map-container {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    flex: 1;
+    width: 100%;
+}
+
+.map-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    z-index: 1000;
+}
+
+.map-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.map-actions {
+    display: flex;
+    gap: 5px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Analytics Grid */
+.analytics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.chart-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.chart-container h3 {
+    color: #2c5530;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.chart-container canvas {
+    max-height: 300px;
+}
+
+/* Claim Details */
+.claim-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.detail-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.detail-section h3 {
+    color: #2c5530;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.detail-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.detail-value {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Status Indicators */
+.status-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-indicator.approved {
+    background-color: #28a745;
+}
+
+.status-indicator.pending {
+    background-color: #ffc107;
+}
+
+.status-indicator.rejected {
+    background-color: #dc3545;
+}
+
+.status-indicator.under_review {
+    background-color: #17a2b8;
+}
+
+.status-indicator.field_verification {
+    background-color: #fd7e14;
+}
+
+.status-indicator.appealed {
+    background-color: #6f42c1;
+}
+
+.status-indicator.disputed {
+    background-color: #e83e8c;
+}
+
+/* FRA Type Indicators */
+.fra-type-indicator {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: white;
+}
+
+.fra-type-indicator.IFR {
+    background-color: #007bff;
+}
+
+.fra-type-indicator.CFR {
+    background-color: #28a745;
+}
+
+.fra-type-indicator.CR {
+    background-color: #ffc107;
+    color: #333;
+}
+
+/* Map Legend */
+.legend {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    max-width: 250px;
+}
+
+.legend h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* Popup Styles */
+.leaflet-popup-content {
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 250px;
+}
+
+.popup-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c5530;
+    font-size: 1.1em;
+}
+
+.popup-details {
+    margin-bottom: 5px;
+}
+
+.popup-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.popup-value {
+    color: #333;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #2c5530;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: 300px;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .control-panel {
+        padding: 15px;
+    }
+    
+    .control-section {
+        margin-bottom: 15px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .filters {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .filter-actions {
+        grid-column: 1 / -1;
+    }
+    
+    .map-controls {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 2% auto;
+    }
+    
+    .analytics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .claim-details {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .filters {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-actions {
+        flex-direction: column;
+    }
+    
+    .map-actions {
+        flex-direction: column;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

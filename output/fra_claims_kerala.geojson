@@ -1,0 +1,577 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000245",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "Kerala",
+        "district": "District_4",
+        "block": "Block_27",
+        "village": "Village_299",
+        "panchayat": "Panchayat_56",
+        "claim_area_ha": 1.18,
+        "claim_area_acres": 121.62,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2023-12-23",
+        "last_updated": "2024-01-02",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_245",
+        "tribal_community": "Gond",
+        "family_members": 1,
+        "household_id": "HH_000245",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Traditional Forest Area",
+        "biodiversity_rich": false,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": false,
+        "satellite_verification": false,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "Agriculture",
+          "Bamboo Work"
+        ],
+        "annual_income_rs": 36818,
+        "dependence_level": "Medium",
+        "frc_constituted": true,
+        "frc_meetings_held": 3,
+        "objections_received": 0,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 21.128337,
+        "centroid_lon": 83.69477,
+        "perimeter_km": 16.12,
+        "elevation_m": 289,
+        "slope_degrees": 13.2,
+        "aspect": "Southwest",
+        "data_quality_score": 0.95,
+        "completeness_score": 0.98,
+        "accuracy_score": 0.85,
+        "verification_level": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.53313237452159,
+              10.941802026209489
+            ],
+            [
+              76.53402970687473,
+              10.948706150124712
+            ],
+            [
+              76.52580860949394,
+              10.947324280713879
+            ],
+            [
+              76.52194973775907,
+              10.951100666272875
+            ],
+            [
+              76.51713113109737,
+              10.948905908755686
+            ],
+            [
+              76.510588312161,
+              10.945530603530932
+            ],
+            [
+              76.51221761381953,
+              10.938551855019977
+            ],
+            [
+              76.51539849046428,
+              10.932698569779738
+            ],
+            [
+              76.52225067896272,
+              10.934596478192804
+            ],
+            [
+              76.52666580026379,
+              10.934402785736903
+            ],
+            [
+              76.52775555793262,
+              10.9389300529843
+            ],
+            [
+              76.53202041941215,
+              10.941802026209489
+            ],
+            [
+              76.53313237452159,
+              10.941802026209489
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000246",
+        "fra_type": "CR",
+        "fra_type_name": "Community Resource Rights",
+        "state": "Kerala",
+        "district": "District_1",
+        "block": "Block_19",
+        "village": "Village_62",
+        "panchayat": "Panchayat_50",
+        "claim_area_ha": 13.51,
+        "claim_area_acres": 97.93,
+        "status": "rejected",
+        "status_name": "Rejected",
+        "submission_date": "2022-09-17",
+        "last_updated": "2024-01-03",
+        "applicant_type": "Community",
+        "community_name": "Community_246",
+        "tribal_community": "Oraon",
+        "community_members": 111,
+        "community_id": "COMM_000246",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": true,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "Bamboo Work"
+        ],
+        "annual_income_rs": 57725,
+        "dependence_level": "Medium",
+        "frc_constituted": false,
+        "frc_meetings_held": 1,
+        "objections_received": 3,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 23.908951,
+        "centroid_lon": 84.564222,
+        "perimeter_km": 1.57,
+        "elevation_m": 174,
+        "slope_degrees": 28.4,
+        "aspect": "West",
+        "data_quality_score": 0.66,
+        "completeness_score": 0.83,
+        "accuracy_score": 0.94,
+        "verification_level": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.87126701620157,
+              11.102116747240036
+            ],
+            [
+              75.88042916754043,
+              11.120404634922368
+            ],
+            [
+              75.86757291949182,
+              11.136276553150516
+            ],
+            [
+              75.84758418710858,
+              11.13263923863027
+            ],
+            [
+              75.8421844360907,
+              11.113412958479964
+            ],
+            [
+              75.8236305973331,
+              11.110438727365635
+            ],
+            [
+              75.83195503272637,
+              11.096239041884655
+            ],
+            [
+              75.82927305254461,
+              11.07592000507271
+            ],
+            [
+              75.84758751110483,
+              11.071617374751499
+            ],
+            [
+              75.85974954202473,
+              11.085087748433473
+            ],
+            [
+              75.88143869567035,
+              11.083180075223243
+            ],
+            [
+              75.89079849558587,
+              11.102116747240036
+            ],
+            [
+              75.87126701620157,
+              11.102116747240036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000247",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "Kerala",
+        "district": "District_13",
+        "block": "Block_19",
+        "village": "Village_856",
+        "panchayat": "Panchayat_37",
+        "claim_area_ha": 47.88,
+        "claim_area_acres": 7.95,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2024-06-28",
+        "last_updated": "2024-02-29",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_247",
+        "tribal_community": "Kharia",
+        "family_members": 5,
+        "household_id": "HH_000247",
+        "forest_type": "Tropical Dry Deciduous",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 5,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Fishing"
+        ],
+        "annual_income_rs": 39611,
+        "dependence_level": "Low",
+        "frc_constituted": true,
+        "frc_meetings_held": 3,
+        "objections_received": 4,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 16.236851,
+        "centroid_lon": 95.746422,
+        "perimeter_km": 15.18,
+        "elevation_m": 1301,
+        "slope_degrees": 14.7,
+        "aspect": "North",
+        "data_quality_score": 0.95,
+        "completeness_score": 0.75,
+        "accuracy_score": 0.94,
+        "verification_level": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.80693157056169,
+              11.218883614366288
+            ],
+            [
+              75.7981801397855,
+              11.22453978815806
+            ],
+            [
+              75.7964559693306,
+              11.234380099780417
+            ],
+            [
+              75.7862267639873,
+              11.240807630125463
+            ],
+            [
+              75.76864577090014,
+              11.24281099191704
+            ],
+            [
+              75.77866224580964,
+              11.22203032603102
+            ],
+            [
+              75.76417988761104,
+              11.211484498654224
+            ],
+            [
+              75.77835272284489,
+              11.20615865653664
+            ],
+            [
+              75.7845694789042,
+              11.185432927667797
+            ],
+            [
+              75.79709588452809,
+              11.201985910123437
+            ],
+            [
+              75.80267933955234,
+              11.210335980455882
+            ],
+            [
+              75.80147301905177,
+              11.218883614366288
+            ],
+            [
+              75.80693157056169,
+              11.218883614366288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000248",
+        "fra_type": "CR",
+        "fra_type_name": "Community Resource Rights",
+        "state": "Kerala",
+        "district": "District_11",
+        "block": "Block_43",
+        "village": "Village_57",
+        "panchayat": "Panchayat_76",
+        "claim_area_ha": 24.7,
+        "claim_area_acres": 16.47,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2021-07-09",
+        "last_updated": "2024-12-04",
+        "applicant_type": "Community",
+        "community_name": "Community_248",
+        "tribal_community": "Sabar",
+        "community_members": 95,
+        "community_id": "COMM_000248",
+        "forest_type": "Tropical Moist Deciduous",
+        "land_use": "Traditional Forest Area",
+        "biodiversity_rich": true,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 7,
+        "field_verification_done": true,
+        "satellite_verification": false,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Bamboo Work",
+          "Agriculture"
+        ],
+        "annual_income_rs": 82329,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 2,
+        "objections_received": 4,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 30.239396,
+        "centroid_lon": 82.099559,
+        "perimeter_km": 18.62,
+        "elevation_m": 1818,
+        "slope_degrees": 13.9,
+        "aspect": "Southeast",
+        "data_quality_score": 0.79,
+        "completeness_score": 0.78,
+        "accuracy_score": 0.81,
+        "verification_level": "Medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.28240288431131,
+              10.889326780092984
+            ],
+            [
+              76.29379514402575,
+              10.90529244865681
+            ],
+            [
+              76.27318815192257,
+              10.898602486343798
+            ],
+            [
+              76.2642545088648,
+              10.921999096756776
+            ],
+            [
+              76.25321677145143,
+              10.907486292835697
+            ],
+            [
+              76.25521048913869,
+              10.893361674877205
+            ],
+            [
+              76.24772506564332,
+              10.883093966659658
+            ],
+            [
+              76.24915602400644,
+              10.866480914979402
+            ],
+            [
+              76.26652681044403,
+              10.87245866805643
+            ],
+            [
+              76.27702834142836,
+              10.871642231760498
+            ],
+            [
+              76.28724539361612,
+              10.87757038052762
+            ],
+            [
+              76.29747224408177,
+              10.889326780092984
+            ],
+            [
+              76.28240288431131,
+              10.889326780092984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000249",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "Kerala",
+        "district": "District_16",
+        "block": "Block_34",
+        "village": "Village_505",
+        "panchayat": "Panchayat_56",
+        "claim_area_ha": 16.96,
+        "claim_area_acres": 47.76,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2024-11-24",
+        "last_updated": "2023-06-24",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_249",
+        "tribal_community": "Mal Paharia",
+        "family_members": 2,
+        "household_id": "HH_000249",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 7,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Grazing"
+        ],
+        "annual_income_rs": 21164,
+        "dependence_level": "High",
+        "frc_constituted": false,
+        "frc_meetings_held": 6,
+        "objections_received": 2,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 23.07526,
+        "centroid_lon": 80.623845,
+        "perimeter_km": 11.48,
+        "elevation_m": 1148,
+        "slope_degrees": 1.6,
+        "aspect": "Northeast",
+        "data_quality_score": 0.79,
+        "completeness_score": 0.89,
+        "accuracy_score": 0.89,
+        "verification_level": "Medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.24826900833892,
+              10.622993604256727
+            ],
+            [
+              76.24198728036058,
+              10.629432426205344
+            ],
+            [
+              76.23713236430646,
+              10.634301376310011
+            ],
+            [
+              76.22985980017116,
+              10.637658388575684
+            ],
+            [
+              76.21995845543147,
+              10.636853678169553
+            ],
+            [
+              76.21249375597955,
+              10.628711839812949
+            ],
+            [
+              76.2111218931784,
+              10.61687255343741
+            ],
+            [
+              76.21670701064264,
+              10.605381163026971
+            ],
+            [
+              76.23045554688679,
+              10.612472329358248
+            ],
+            [
+              76.24332077320985,
+              10.598135106874139
+            ],
+            [
+              76.23958215754963,
+              10.618100460883994
+            ],
+            [
+              76.25928969770666,
+              10.622993604256727
+            ],
+            [
+              76.24826900833892,
+              10.622993604256727
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "state": "Kerala",
+    "total_claims": 5,
+    "generated_at": "2025-09-13T22:34:51.956686"
+  }
+}

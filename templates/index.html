@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Land Use Classification - MVP</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Land Use Classification MVP</h1>
+            <p>Interactive map showing AI-detected land use classes: Water, Forest, and Agriculture</p>
+        </header>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="layer-toggle">
+                    <input type="checkbox" id="layer-toggle" checked>
+                    Show Land Use Classification
+                </label>
+            </div>
+            
+            <div class="control-group">
+                <label for="water-toggle">
+                    <input type="checkbox" id="water-toggle" checked>
+                    Water
+                </label>
+                <label for="forest-toggle">
+                    <input type="checkbox" id="forest-toggle" checked>
+                    Forest
+                </label>
+                <label for="agriculture-toggle">
+                    <input type="checkbox" id="agriculture-toggle" checked>
+                    Agriculture
+                </label>
+            </div>
+            
+            <div class="status" id="status">
+                Loading data...
+            </div>
+        </div>
+        
+        <div id="map"></div>
+        
+        <div class="info">
+            <h3>About this MVP</h3>
+            <p>This map displays the results of AI-powered land use classification using:</p>
+            <ul>
+                <li><strong>Data Source:</strong> Sentinel-2 satellite imagery</li>
+                <li><strong>AI Model:</strong> Random Forest classifier</li>
+                <li><strong>Classes:</strong> Water (blue), Forest (green), Agriculture (yellow)</li>
+                <li><strong>Technology:</strong> Python, scikit-learn, Leaflet.js</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

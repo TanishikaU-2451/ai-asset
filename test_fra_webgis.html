@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRA WebGIS Test Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 5px; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        .loading { background-color: #fff3cd; border-color: #ffeaa7; }
+        pre { background: #f8f9fa; padding: 10px; border-radius: 3px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>FRA WebGIS Test Page</h1>
+    <p>Testing the FRA WebGIS API endpoints to ensure everything is working correctly.</p>
+    
+    <div class="test-section loading" id="performance-test">
+        <h3>Performance API Test</h3>
+        <p>Testing: <code>GET /api/performance</code></p>
+        <div id="performance-result">Loading...</div>
+    </div>
+    
+    <div class="test-section loading" id="analytics-test">
+        <h3>Analytics API Test</h3>
+        <p>Testing: <code>GET /api/analytics</code></p>
+        <div id="analytics-result">Loading...</div>
+    </div>
+    
+    <div class="test-section loading" id="claims-test">
+        <h3>Claims API Test</h3>
+        <p>Testing: <code>GET /api/claims</code></p>
+        <div id="claims-result">Loading...</div>
+    </div>
+    
+    <div class="test-section loading" id="filter-options-test">
+        <h3>Filter Options API Test</h3>
+        <p>Testing: <code>GET /api/filter-options</code></p>
+        <div id="filter-options-result">Loading...</div>
+    </div>
+
+    <script>
+        async function testAPI(url, resultElementId, testName) {
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                const resultElement = document.getElementById(resultElementId);
+                const sectionElement = resultElement.closest('.test-section');
+                
+                if (response.ok) {
+                    sectionElement.className = 'test-section success';
+                    resultElement.innerHTML = `
+                        <p><strong>✅ Success!</strong> ${testName} is working correctly.</p>
+                        <p><strong>Response:</strong></p>
+                        <pre>${JSON.stringify(data, null, 2).substring(0, 500)}${JSON.stringify(data, null, 2).length > 500 ? '...' : ''}</pre>
+                    `;
+                } else {
+                    sectionElement.className = 'test-section error';
+                    resultElement.innerHTML = `
+                        <p><strong>❌ Error!</strong> ${testName} failed with status ${response.status}</p>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                }
+            } catch (error) {
+                const resultElement = document.getElementById(resultElementId);
+                const sectionElement = resultElement.closest('.test-section');
+                sectionElement.className = 'test-section error';
+                resultElement.innerHTML = `
+                    <p><strong>❌ Error!</strong> ${testName} failed with error: ${error.message}</p>
+                `;
+            }
+        }
+        
+        // Run all tests
+        async function runTests() {
+            await testAPI('/api/performance', 'performance-result', 'Performance API');
+            await testAPI('/api/analytics', 'analytics-result', 'Analytics API');
+            await testAPI('/api/claims', 'claims-result', 'Claims API');
+            await testAPI('/api/filter-options', 'filter-options-result', 'Filter Options API');
+        }
+        
+        // Start tests when page loads
+        runTests();
+    </script>
+</body>
+</html>

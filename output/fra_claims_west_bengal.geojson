@@ -1,0 +1,1493 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000199",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_10",
+        "block": "Block_9",
+        "village": "Village_986",
+        "panchayat": "Panchayat_34",
+        "claim_area_ha": 17.84,
+        "claim_area_acres": 53.11,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2020-08-23",
+        "last_updated": "2024-06-20",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_199",
+        "tribal_community": "Paharia",
+        "family_members": 7,
+        "household_id": "HH_000199",
+        "forest_type": "Tropical Dry Deciduous",
+        "land_use": "Forest Land",
+        "biodiversity_rich": true,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 5,
+        "field_verification_done": false,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "Bamboo Work"
+        ],
+        "annual_income_rs": 38452,
+        "dependence_level": "Medium",
+        "frc_constituted": true,
+        "frc_meetings_held": 1,
+        "objections_received": 0,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 33.542653,
+        "centroid_lon": 84.217156,
+        "perimeter_km": 13.31,
+        "elevation_m": 188,
+        "slope_degrees": 4.2,
+        "aspect": "Northeast",
+        "data_quality_score": 0.61,
+        "completeness_score": 0.79,
+        "accuracy_score": 0.91,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.30752082830053,
+              22.639530647281642
+            ],
+            [
+              88.30126540592147,
+              22.662441052772014
+            ],
+            [
+              88.28331830371063,
+              22.678293024630015
+            ],
+            [
+              88.25923438905428,
+              22.683916554845695
+            ],
+            [
+              88.24263212134801,
+              22.666055594699767
+            ],
+            [
+              88.24235835819643,
+              22.6463597420556
+            ],
+            [
+              88.2475398418391,
+              22.6342229733779
+            ],
+            [
+              88.25483954010683,
+              22.627093812118105
+            ],
+            [
+              88.26011866017298,
+              22.60129498043981
+            ],
+            [
+              88.27629735071353,
+              22.616142012538003
+            ],
+            [
+              88.2952900112448,
+              22.62046039477314
+            ],
+            [
+              88.30659692581824,
+              22.639530647281642
+            ],
+            [
+              88.30752082830053,
+              22.639530647281642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000200",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_19",
+        "block": "Block_31",
+        "village": "Village_378",
+        "panchayat": "Panchayat_77",
+        "claim_area_ha": 26.58,
+        "claim_area_acres": 115.33,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2022-03-16",
+        "last_updated": "2024-09-26",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_200",
+        "tribal_community": "Ho",
+        "family_members": 4,
+        "household_id": "HH_000200",
+        "forest_type": "Mangrove",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 7,
+        "field_verification_done": false,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "Bamboo Work",
+          "Grazing",
+          "Fishing"
+        ],
+        "annual_income_rs": 56355,
+        "dependence_level": "High",
+        "frc_constituted": false,
+        "frc_meetings_held": 8,
+        "objections_received": 4,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 7.140144,
+        "centroid_lon": 84.997273,
+        "perimeter_km": 16.69,
+        "elevation_m": 796,
+        "slope_degrees": 16.5,
+        "aspect": "Southwest",
+        "data_quality_score": 0.87,
+        "completeness_score": 0.92,
+        "accuracy_score": 0.81,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.76363287287344,
+              22.602116871333955
+            ],
+            [
+              87.75770821122504,
+              22.611349337980492
+            ],
+            [
+              87.75007125638773,
+              22.61685142169896
+            ],
+            [
+              87.74153292632127,
+              22.614700734544456
+            ],
+            [
+              87.73639659917644,
+              22.61013253664438
+            ],
+            [
+              87.72361576251795,
+              22.607909079720663
+            ],
+            [
+              87.73429500897646,
+              22.599460372632088
+            ],
+            [
+              87.73521769008892,
+              22.59274067240941
+            ],
+            [
+              87.7405086758148,
+              22.582409189374385
+            ],
+            [
+              87.74777006784642,
+              22.59242122100628
+            ],
+            [
+              87.76101155416451,
+              22.590761475086012
+            ],
+            [
+              87.755152771403,
+              22.602116871333955
+            ],
+            [
+              87.76363287287344,
+              22.602116871333955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000201",
+        "fra_type": "CFR",
+        "fra_type_name": "Community Forest Rights",
+        "state": "West Bengal",
+        "district": "District_7",
+        "block": "Block_6",
+        "village": "Village_827",
+        "panchayat": "Panchayat_84",
+        "claim_area_ha": 24.29,
+        "claim_area_acres": 17.26,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2022-06-05",
+        "last_updated": "2023-03-09",
+        "applicant_type": "Community",
+        "community_name": "Community_201",
+        "tribal_community": "Kumarbhag Paharia",
+        "community_members": 193,
+        "community_id": "COMM_000201",
+        "forest_type": "Mangrove",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 4,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Medicinal Plant Collection"
+        ],
+        "annual_income_rs": 49724,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 5,
+        "objections_received": 1,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 7.083346,
+        "centroid_lon": 79.27075,
+        "perimeter_km": 4.45,
+        "elevation_m": 1528,
+        "slope_degrees": 25.2,
+        "aspect": "Southwest",
+        "data_quality_score": 0.6,
+        "completeness_score": 0.79,
+        "accuracy_score": 0.87,
+        "verification_level": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.6694338935241,
+              23.396352687931625
+            ],
+            [
+              87.67092253292505,
+              23.403991816696095
+            ],
+            [
+              87.66697277802868,
+              23.41373220934029
+            ],
+            [
+              87.65743545399205,
+              23.407483453973885
+            ],
+            [
+              87.65084759041703,
+              23.405802404626716
+            ],
+            [
+              87.64963758134196,
+              23.399112258773943
+            ],
+            [
+              87.64824580252404,
+              23.393184453956053
+            ],
+            [
+              87.651721196355,
+              23.387911166233657
+            ],
+            [
+              87.65726622897635,
+              23.384044936052394
+            ],
+            [
+              87.66259823954609,
+              23.388552069653908
+            ],
+            [
+              87.67043820558156,
+              23.38902481745099
+            ],
+            [
+              87.67219582433783,
+              23.396352687931625
+            ],
+            [
+              87.6694338935241,
+              23.396352687931625
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000202",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_5",
+        "block": "Block_47",
+        "village": "Village_633",
+        "panchayat": "Panchayat_6",
+        "claim_area_ha": 40.32,
+        "claim_area_acres": 14.3,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2024-03-13",
+        "last_updated": "2023-06-20",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_202",
+        "tribal_community": "Gond",
+        "family_members": 1,
+        "household_id": "HH_000202",
+        "forest_type": "Tropical Semi-Evergreen",
+        "land_use": "Forest Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": false,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "NTFP Collection",
+          "Honey Collection"
+        ],
+        "annual_income_rs": 21369,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 5,
+        "objections_received": 2,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 13.717264,
+        "centroid_lon": 94.583287,
+        "perimeter_km": 10.28,
+        "elevation_m": 200,
+        "slope_degrees": 8.3,
+        "aspect": "Northwest",
+        "data_quality_score": 0.94,
+        "completeness_score": 0.91,
+        "accuracy_score": 0.9,
+        "verification_level": "Medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.47353223688232,
+              22.82703332985099
+            ],
+            [
+              88.46518603550575,
+              22.829925588164407
+            ],
+            [
+              88.46572376936254,
+              22.838065395655004
+            ],
+            [
+              88.4599387466253,
+              22.832227765516727
+            ],
+            [
+              88.45241462503394,
+              22.836578536553233
+            ],
+            [
+              88.44884744078283,
+              22.830509325181854
+            ],
+            [
+              88.45417333694363,
+              22.825121158731577
+            ],
+            [
+              88.45200641207101,
+              22.81701702027605
+            ],
+            [
+              88.45971424738576,
+              22.82027746767712
+            ],
+            [
+              88.46368501962331,
+              22.820465503266256
+            ],
+            [
+              88.46798684255629,
+              22.822341102141618
+            ],
+            [
+              88.46774913336911,
+              22.82703332985099
+            ],
+            [
+              88.47353223688232,
+              22.82703332985099
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000203",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_11",
+        "block": "Block_47",
+        "village": "Village_725",
+        "panchayat": "Panchayat_33",
+        "claim_area_ha": 27.44,
+        "claim_area_acres": 62.63,
+        "status": "field_verification",
+        "status_name": "Field Verification",
+        "submission_date": "2020-04-13",
+        "last_updated": "2024-05-26",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_203",
+        "tribal_community": "Kisan",
+        "family_members": 4,
+        "household_id": "HH_000203",
+        "forest_type": "Tropical Semi-Evergreen",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": false,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": true,
+        "satellite_verification": false,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Medicinal Plant Collection",
+          "NTFP Collection"
+        ],
+        "annual_income_rs": 47206,
+        "dependence_level": "Low",
+        "frc_constituted": false,
+        "frc_meetings_held": 1,
+        "objections_received": 0,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 19.51487,
+        "centroid_lon": 94.966129,
+        "perimeter_km": 18.26,
+        "elevation_m": 147,
+        "slope_degrees": 40.5,
+        "aspect": "Southwest",
+        "data_quality_score": 0.7,
+        "completeness_score": 0.89,
+        "accuracy_score": 0.81,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.16429074298006,
+              23.10487106379255
+            ],
+            [
+              88.17563598304466,
+              23.12530079507174
+            ],
+            [
+              88.15472737778974,
+              23.128696423339704
+            ],
+            [
+              88.14085745089322,
+              23.125661752610885
+            ],
+            [
+              88.13059468313179,
+              23.12016470729418
+            ],
+            [
+              88.11403152191933,
+              23.113625590163238
+            ],
+            [
+              88.12003718642295,
+              23.09787995962782
+            ],
+            [
+              88.12057156845057,
+              23.07801012932144
+            ],
+            [
+              88.14108128066543,
+              23.085637145234813
+            ],
+            [
+              88.15629197874873,
+              23.077619706032277
+            ],
+            [
+              88.16989942151685,
+              23.08812799675041
+            ],
+            [
+              88.17019265815667,
+              23.10487106379255
+            ],
+            [
+              88.16429074298006,
+              23.10487106379255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000204",
+        "fra_type": "CR",
+        "fra_type_name": "Community Resource Rights",
+        "state": "West Bengal",
+        "district": "District_1",
+        "block": "Block_48",
+        "village": "Village_691",
+        "panchayat": "Panchayat_86",
+        "claim_area_ha": 30.51,
+        "claim_area_acres": 81.27,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2024-12-17",
+        "last_updated": "2023-09-06",
+        "applicant_type": "Community",
+        "community_name": "Community_204",
+        "tribal_community": "Mahli",
+        "community_members": 20,
+        "community_id": "COMM_000204",
+        "forest_type": "Tropical Thorn",
+        "land_use": "Forest Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 5,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Medicinal Plant Collection",
+          "Fishing",
+          "Bamboo Work"
+        ],
+        "annual_income_rs": 17558,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 7,
+        "objections_received": 4,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 32.289524,
+        "centroid_lon": 87.30703,
+        "perimeter_km": 14.18,
+        "elevation_m": 1133,
+        "slope_degrees": 16.2,
+        "aspect": "Southeast",
+        "data_quality_score": 0.8,
+        "completeness_score": 0.89,
+        "accuracy_score": 0.9,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.56221640364424,
+              23.30780480166018
+            ],
+            [
+              87.55921922476702,
+              23.329568554637138
+            ],
+            [
+              87.53794210092275,
+              23.335368538469396
+            ],
+            [
+              87.52279881773826,
+              23.325577626025186
+            ],
+            [
+              87.49962224713408,
+              23.3375010168858
+            ],
+            [
+              87.48587176078885,
+              23.31939788127866
+            ],
+            [
+              87.48728579459623,
+              23.296626919829457
+            ],
+            [
+              87.51228079898118,
+              23.29271733402697
+            ],
+            [
+              87.52257194613003,
+              23.28845405060028
+            ],
+            [
+              87.53243343685799,
+              23.292303356602925
+            ],
+            [
+              87.55838870327834,
+              23.2865747924347
+            ],
+            [
+              87.56261517928513,
+              23.30780480166018
+            ],
+            [
+              87.56221640364424,
+              23.30780480166018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000205",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_5",
+        "block": "Block_2",
+        "village": "Village_398",
+        "panchayat": "Panchayat_57",
+        "claim_area_ha": 23.51,
+        "claim_area_acres": 61.29,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2022-06-08",
+        "last_updated": "2023-01-19",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_205",
+        "tribal_community": "Birhor",
+        "family_members": 1,
+        "household_id": "HH_000205",
+        "forest_type": "Tropical Dry Deciduous",
+        "land_use": "Forest Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "NTFP Collection",
+          "Agriculture"
+        ],
+        "annual_income_rs": 23971,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 6,
+        "objections_received": 3,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 9.853068,
+        "centroid_lon": 75.814548,
+        "perimeter_km": 15.29,
+        "elevation_m": 1601,
+        "slope_degrees": 19.8,
+        "aspect": "Southwest",
+        "data_quality_score": 0.85,
+        "completeness_score": 0.83,
+        "accuracy_score": 0.83,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.72969850037289,
+              23.60373142841801
+            ],
+            [
+              87.75369391535006,
+              23.629302872948376
+            ],
+            [
+              87.72563077545723,
+              23.62940954842319
+            ],
+            [
+              87.70769286139527,
+              23.646930644461584
+            ],
+            [
+              87.69776971898743,
+              23.62235134780515
+            ],
+            [
+              87.69205693258357,
+              23.610146297683425
+            ],
+            [
+              87.69607903663712,
+              23.598497555460067
+            ],
+            [
+              87.68284739319468,
+              23.567890227036592
+            ],
+            [
+              87.7073470401871,
+              23.558126973039855
+            ],
+            [
+              87.72790892230951,
+              23.57306486263671
+            ],
+            [
+              87.75011470428312,
+              23.580460203169405
+            ],
+            [
+              87.7409728663258,
+              23.60373142841801
+            ],
+            [
+              87.72969850037289,
+              23.60373142841801
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000206",
+        "fra_type": "CR",
+        "fra_type_name": "Community Resource Rights",
+        "state": "West Bengal",
+        "district": "District_2",
+        "block": "Block_2",
+        "village": "Village_161",
+        "panchayat": "Panchayat_83",
+        "claim_area_ha": 10.91,
+        "claim_area_acres": 99.69,
+        "status": "field_verification",
+        "status_name": "Field Verification",
+        "submission_date": "2022-07-12",
+        "last_updated": "2023-08-30",
+        "applicant_type": "Community",
+        "community_name": "Community_206",
+        "tribal_community": "Sauria Paharia",
+        "community_members": 38,
+        "community_id": "COMM_000206",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": false,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 6,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "NTFP Collection",
+          "Fishing"
+        ],
+        "annual_income_rs": 62932,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 7,
+        "objections_received": 3,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 21.266956,
+        "centroid_lon": 84.001441,
+        "perimeter_km": 16.88,
+        "elevation_m": 1148,
+        "slope_degrees": 39.6,
+        "aspect": "West",
+        "data_quality_score": 0.81,
+        "completeness_score": 0.93,
+        "accuracy_score": 0.98,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.73449073468508,
+              22.323844019762483
+            ],
+            [
+              87.73471615567559,
+              22.327624570109098
+            ],
+            [
+              87.73032210965772,
+              22.327103610361547
+            ],
+            [
+              87.72795055461359,
+              22.329985071179696
+            ],
+            [
+              87.72545390883963,
+              22.32774428108026
+            ],
+            [
+              87.72461051240114,
+              22.32508400212502
+            ],
+            [
+              87.7245230139076,
+              22.322578345524146
+            ],
+            [
+              87.72557397614449,
+              22.320082323501108
+            ],
+            [
+              87.7279777531734,
+              22.317892138483955
+            ],
+            [
+              87.73178056579056,
+              22.317390855698974
+            ],
+            [
+              87.73343961568442,
+              22.320883851853985
+            ],
+            [
+              87.73403362577069,
+              22.323844019762483
+            ],
+            [
+              87.73449073468508,
+              22.323844019762483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000207",
+        "fra_type": "CFR",
+        "fra_type_name": "Community Forest Rights",
+        "state": "West Bengal",
+        "district": "District_4",
+        "block": "Block_39",
+        "village": "Village_50",
+        "panchayat": "Panchayat_93",
+        "claim_area_ha": 0.87,
+        "claim_area_acres": 76.51,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2022-01-26",
+        "last_updated": "2023-06-21",
+        "applicant_type": "Community",
+        "community_name": "Community_207",
+        "tribal_community": "Lohra",
+        "community_members": 52,
+        "community_id": "COMM_000207",
+        "forest_type": "Tropical Thorn",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 6,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": false,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Honey Collection",
+          "Grazing",
+          "Medicinal Plant Collection"
+        ],
+        "annual_income_rs": 82675,
+        "dependence_level": "Medium",
+        "frc_constituted": false,
+        "frc_meetings_held": 3,
+        "objections_received": 3,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 26.854067,
+        "centroid_lon": 77.709112,
+        "perimeter_km": 9.5,
+        "elevation_m": 212,
+        "slope_degrees": 35.8,
+        "aspect": "East",
+        "data_quality_score": 0.93,
+        "completeness_score": 0.78,
+        "accuracy_score": 0.85,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.55798382255344,
+              23.607092346756986
+            ],
+            [
+              87.53136907552192,
+              23.622193477646594
+            ],
+            [
+              87.51597721208998,
+              23.62484191212621
+            ],
+            [
+              87.50102554856302,
+              23.65470529609849
+            ],
+            [
+              87.48962941689194,
+              23.628144552710307
+            ],
+            [
+              87.44875882417703,
+              23.624449323152053
+            ],
+            [
+              87.46699240984971,
+              23.59508923417668
+            ],
+            [
+              87.49077245127818,
+              23.587359272805454
+            ],
+            [
+              87.5045334350802,
+              23.583877284048512
+            ],
+            [
+              87.52310896159918,
+              23.573726428262862
+            ],
+            [
+              87.53418780405877,
+              23.590179729031505
+            ],
+            [
+              87.5286066035381,
+              23.607092346756986
+            ],
+            [
+              87.55798382255344,
+              23.607092346756986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000208",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_4",
+        "block": "Block_37",
+        "village": "Village_708",
+        "panchayat": "Panchayat_21",
+        "claim_area_ha": 14.79,
+        "claim_area_acres": 68.21,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2023-10-12",
+        "last_updated": "2023-05-08",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_208",
+        "tribal_community": "Sabar",
+        "family_members": 5,
+        "household_id": "HH_000208",
+        "forest_type": "Tropical Dry Deciduous",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 6,
+        "field_verification_done": false,
+        "satellite_verification": false,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
+        "livelihood_activities": [
+          "Fishing",
+          "Grazing"
+        ],
+        "annual_income_rs": 21681,
+        "dependence_level": "High",
+        "frc_constituted": false,
+        "frc_meetings_held": 0,
+        "objections_received": 1,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 31.387363,
+        "centroid_lon": 72.291922,
+        "perimeter_km": 6.26,
+        "elevation_m": 1038,
+        "slope_degrees": 40.2,
+        "aspect": "South",
+        "data_quality_score": 0.63,
+        "completeness_score": 0.82,
+        "accuracy_score": 0.89,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.55748659505281,
+              23.145391278225436
+            ],
+            [
+              87.55879853109602,
+              23.171233639507758
+            ],
+            [
+              87.53526783611098,
+              23.181917144224958
+            ],
+            [
+              87.51268178962194,
+              23.186463141337036
+            ],
+            [
+              87.4966089817439,
+              23.17075530035848
+            ],
+            [
+              87.47125832631376,
+              23.159288240100594
+            ],
+            [
+              87.49503045024377,
+              23.138474441729546
+            ],
+            [
+              87.48668086989481,
+              23.108569604235807
+            ],
+            [
+              87.51229080091814,
+              23.101600028946827
+            ],
+            [
+              87.53085167545669,
+              23.118535455199893
+            ],
+            [
+              87.53431199432003,
+              23.135285458595035
+            ],
+            [
+              87.56570529357182,
+              23.145391278225436
+            ],
+            [
+              87.55748659505281,
+              23.145391278225436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000209",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_10",
+        "block": "Block_39",
+        "village": "Village_645",
+        "panchayat": "Panchayat_40",
+        "claim_area_ha": 46.14,
+        "claim_area_acres": 118.61,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2024-02-26",
+        "last_updated": "2024-05-15",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_209",
+        "tribal_community": "Lodha",
+        "family_members": 2,
+        "household_id": "HH_000209",
+        "forest_type": "Tropical Dry Deciduous",
+        "land_use": "Traditional Forest Area",
+        "biodiversity_rich": false,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 6,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Grazing",
+          "Agriculture",
+          "Medicinal Plant Collection"
+        ],
+        "annual_income_rs": 79319,
+        "dependence_level": "Medium",
+        "frc_constituted": false,
+        "frc_meetings_held": 4,
+        "objections_received": 3,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 31.352273,
+        "centroid_lon": 69.587419,
+        "perimeter_km": 17.87,
+        "elevation_m": 985,
+        "slope_degrees": 13.9,
+        "aspect": "West",
+        "data_quality_score": 0.72,
+        "completeness_score": 0.82,
+        "accuracy_score": 0.9,
+        "verification_level": "Medium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.81731583049122,
+              23.390355436206995
+            ],
+            [
+              87.8159546146185,
+              23.39538635530179
+            ],
+            [
+              87.81138291196123,
+              23.397486308498436
+            ],
+            [
+              87.80720995145353,
+              23.39672913994232
+            ],
+            [
+              87.80118245992855,
+              23.39836911450665
+            ],
+            [
+              87.79860250795757,
+              23.393151889045264
+            ],
+            [
+              87.80399136262263,
+              23.389141293864977
+            ],
+            [
+              87.8045773131993,
+              23.386259627434956
+            ],
+            [
+              87.80702566348634,
+              23.38269998150589
+            ],
+            [
+              87.81075740188113,
+              23.384594239937044
+            ],
+            [
+              87.81462903370108,
+              23.38617641623991
+            ],
+            [
+              87.81232411661,
+              23.390355436206995
+            ],
+            [
+              87.81731583049122,
+              23.390355436206995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000210",
+        "fra_type": "CFR",
+        "fra_type_name": "Community Forest Rights",
+        "state": "West Bengal",
+        "district": "District_8",
+        "block": "Block_12",
+        "village": "Village_321",
+        "panchayat": "Panchayat_49",
+        "claim_area_ha": 35.17,
+        "claim_area_acres": 22.64,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2023-09-14",
+        "last_updated": "2023-07-28",
+        "applicant_type": "Community",
+        "community_name": "Community_210",
+        "tribal_community": "Kurukh",
+        "community_members": 21,
+        "community_id": "COMM_000210",
+        "forest_type": "Tropical Thorn",
+        "land_use": "Sacred Grove",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 4,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Medicinal Plant Collection"
+        ],
+        "annual_income_rs": 54541,
+        "dependence_level": "High",
+        "frc_constituted": true,
+        "frc_meetings_held": 8,
+        "objections_received": 0,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 17.070232,
+        "centroid_lon": 79.742948,
+        "perimeter_km": 12.57,
+        "elevation_m": 1480,
+        "slope_degrees": 12.3,
+        "aspect": "Northeast",
+        "data_quality_score": 0.84,
+        "completeness_score": 0.9,
+        "accuracy_score": 0.92,
+        "verification_level": "High"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.49285355001518,
+              23.618471311830938
+            ],
+            [
+              87.49302197711846,
+              23.630649281087493
+            ],
+            [
+              87.47856320392518,
+              23.62830417216476
+            ],
+            [
+              87.47171519323906,
+              23.634868041612133
+            ],
+            [
+              87.46168761539352,
+              23.632764446486533
+            ],
+            [
+              87.45517765891286,
+              23.624019392683895
+            ],
+            [
+              87.45650627454924,
+              23.613313347727754
+            ],
+            [
+              87.45739894468515,
+              23.599228787336575
+            ],
+            [
+              87.47060172803042,
+              23.5943302614176
+            ],
+            [
+              87.47807411999663,
+              23.609709395916298
+            ],
+            [
+              87.4865812713318,
+              23.61043253284889
+            ],
+            [
+              87.4883511269964,
+              23.618471311830938
+            ],
+            [
+              87.49285355001518,
+              23.618471311830938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "claim_id": "FRA_000211",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
+        "state": "West Bengal",
+        "district": "District_19",
+        "block": "Block_8",
+        "village": "Village_433",
+        "panchayat": "Panchayat_33",
+        "claim_area_ha": 47.82,
+        "claim_area_acres": 30.76,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2024-02-21",
+        "last_updated": "2024-10-04",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_211",
+        "tribal_community": "Lodha",
+        "family_members": 2,
+        "household_id": "HH_000211",
+        "forest_type": "Tropical Semi-Evergreen",
+        "land_use": "Sacred Grove",
+        "biodiversity_rich": true,
+        "water_source": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 7,
+        "field_verification_done": true,
+        "satellite_verification": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": true,
+        "livelihood_activities": [
+          "Hunting",
+          "Agriculture"
+        ],
+        "annual_income_rs": 73010,
+        "dependence_level": "High",
+        "frc_constituted": false,
+        "frc_meetings_held": 9,
+        "objections_received": 0,
+        "appeal_filed": false,
+        "court_case": false,
+        "centroid_lat": 17.588521,
+        "centroid_lon": 93.377507,
+        "perimeter_km": 10.78,
+        "elevation_m": 261,
+        "slope_degrees": 7.7,
+        "aspect": "Northwest",
+        "data_quality_score": 0.77,
+        "completeness_score": 0.8,
+        "accuracy_score": 0.93,
+        "verification_level": "Low"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.45931974526334,
+              23.27155226409132
+            ],
+            [
+              88.45764816244875,
+              23.27441982187611
+            ],
+            [
+              88.4549568851314,
+              23.275429621270494
+            ],
+            [
+              88.45255140231801,
+              23.275967069022677
+            ],
+            [
+              88.44837051662064,
+              23.277109807548776
+            ],
+            [
+              88.44964605551115,
+              23.27259173121789
+            ],
+            [
+              88.44867876524144,
+              23.2702287749152
+            ],
+            [
+              88.44832516002619,
+              23.265942376333502
+            ],
+            [
+              88.45232136528138,
+              23.265537516427045
+            ],
+            [
+              88.45472686957712,
+              23.26817857072074
+            ],
+            [
+              88.45713388993519,
+              23.26901520918262
+            ],
+            [
+              88.45721197974183,
+              23.27155226409132
+            ],
+            [
+              88.45931974526334,
+              23.27155226409132
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "state": "West Bengal",
+    "total_claims": 13,
+    "generated_at": "2025-09-13T22:34:51.940906"
+  }
+}

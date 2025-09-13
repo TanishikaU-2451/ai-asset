@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "total_claims": 249,
+    "claims_by_type": {
+      "IFR": 142,
+      "CFR": 78,
+      "CR": 29
+    },
+    "claims_by_status": {
+      "approved": 104,
+      "field_verification": 43,
+      "under_review": 32,
+      "submitted": 30,
+      "rejected": 27,
+      "appealed": 9,
+      "disputed": 4
+    },
+    "claims_by_state": {
+      "Odisha": 27,
+      "Chhattisgarh": 27,
+      "Jharkhand": 27,
+      "Madhya Pradesh": 27,
+      "Gujarat": 24,
+      "Maharashtra": 22,
+      "Assam": 21,
+      "Andhra Pradesh": 16,
+      "Telangana": 15,
+      "Rajasthan": 13,
+      "West Bengal": 13,
+      "Karnataka": 12,
+      "Kerala": 5
+    },
+    "total_area_ha": 6341.51,
+    "average_claim_size_ha": 25.47
+  },
+  "state_wise_analysis": {
+    "Odisha": {
+      "total_claims": 27,
+      "approved_claims": 13,
+      "pending_claims": 9,
+      "rejected_claims": 4,
+      "total_area_ha": 717.7499999999999,
+      "approval_rate": 48.15
+    },
+    "Chhattisgarh": {
+      "total_claims": 27,
+      "approved_claims": 11,
+      "pending_claims": 12,
+      "rejected_claims": 2,
+      "total_area_ha": 793.67,
+      "approval_rate": 40.74
+    },
+    "Jharkhand": {
+      "total_claims": 27,
+      "approved_claims": 11,
+      "pending_claims": 9,
+      "rejected_claims": 3,
+      "total_area_ha": 656.22,
+      "approval_rate": 40.74
+    },
+    "Madhya Pradesh": {
+      "total_claims": 27,
+      "approved_claims": 14,
+      "pending_claims": 10,
+      "rejected_claims": 2,
+      "total_area_ha": 551.34,
+      "approval_rate": 51.85
+    },
+    "Maharashtra": {
+      "total_claims": 22,
+      "approved_claims": 9,
+      "pending_claims": 10,
+      "rejected_claims": 3,
+      "total_area_ha": 671.4,
+      "approval_rate": 40.91
+    },
+    "Andhra Pradesh": {
+      "total_claims": 16,
+      "approved_claims": 5,
+      "pending_claims": 8,
+      "rejected_claims": 3,
+      "total_area_ha": 382.76,
+      "approval_rate": 31.25
+    },
+    "Telangana": {
+      "total_claims": 15,
+      "approved_claims": 8,
+      "pending_claims": 6,
+      "rejected_claims": 1,
+      "total_area_ha": 322.04999999999995,
+      "approval_rate": 53.33
+    },
+    "Gujarat": {
+      "total_claims": 24,
+      "approved_claims": 5,
+      "pending_claims": 14,
+      "rejected_claims": 3,
+      "total_area_ha": 626.26,
+      "approval_rate": 20.83
+    },
+    "Rajasthan": {
+      "total_claims": 13,
+      "approved_claims": 6,
+      "pending_claims": 6,
+      "rejected_claims": 1,
+      "total_area_ha": 385.63,
+      "approval_rate": 46.15
+    },
+    "West Bengal": {
+      "total_claims": 13,
+      "approved_claims": 7,
+      "pending_claims": 6,
+      "rejected_claims": 0,
+      "total_area_ha": 346.19,
+      "approval_rate": 53.85
+    },
+    "Assam": {
+      "total_claims": 21,
+      "approved_claims": 8,
+      "pending_claims": 7,
+      "rejected_claims": 3,
+      "total_area_ha": 516.8699999999999,
+      "approval_rate": 38.1
+    },
+    "Karnataka": {
+      "total_claims": 12,
+      "approved_claims": 4,
+      "pending_claims": 7,
+      "rejected_claims": 1,
+      "total_area_ha": 267.14,
+      "approval_rate": 33.33
+    },
+    "Kerala": {
+      "total_claims": 5,
+      "approved_claims": 3,
+      "pending_claims": 1,
+      "rejected_claims": 1,
+      "total_area_ha": 104.22999999999999,
+      "approval_rate": 60.0
+    }
+  },
+  "tribal_community_analysis": {
+    "Asur": {
+      "total_claims": 7,
+      "claim_area_ha": 178.89,
+      "approved_claims": 2
+    },
+    "Bhuiya": {
+      "total_claims": 8,
+      "claim_area_ha": 178.55,
+      "approved_claims": 3
+    },
+    "Bhumij": {
+      "total_claims": 12,
+      "claim_area_ha": 276.61,
+      "approved_claims": 6
+    },
+    "Birhor": {
+      "total_claims": 14,
+      "claim_area_ha": 321.11,
+      "approved_claims": 6
+    },
+    "Chero": {
+      "total_claims": 11,
+      "claim_area_ha": 232.18,
+      "approved_claims": 5
+    },
+    "Chik Baraik": {
+      "total_claims": 10,
+      "claim_area_ha": 259.51,
+      "approved_claims": 3
+    },
+    "Gond": {
+      "total_claims": 7,
+      "claim_area_ha": 153.14000000000001,
+      "approved_claims": 5
+    },
+    "Ho": {
+      "total_claims": 6,
+      "claim_area_ha": 105.91,
+      "approved_claims": 4
+    },
+    "Karmali": {
+      "total_claims": 9,
+      "claim_area_ha": 189.05,
+      "approved_claims": 5
+    },
+    "Kharia": {
+      "total_claims": 9,
+      "claim_area_ha": 271.98,
+      "approved_claims": 2
+    },
+    "Kharwar": {
+      "total_claims": 6,
+      "claim_area_ha": 183.5,
+      "approved_claims": 3
+    },
+    "Kisan": {
+      "total_claims": 12,
+      "claim_area_ha": 323.54,
+      "approved_claims": 6
+    },
+    "Korwa": {
+      "total_claims": 8,
+      "claim_area_ha": 236.68,
+      "approved_claims": 2
+    },
+    "Kumarbhag Paharia": {
+      "total_claims": 12,
+      "claim_area_ha": 286.83,
+      "approved_claims": 4
+    },
+    "Kurukh": {
+      "total_claims": 7,
+      "claim_area_ha": 210.65,
+      "approved_claims": 2
+    },
+    "Lodha": {
+      "total_claims": 10,
+      "claim_area_ha": 286.01,
+      "approved_claims": 3
+    },
+    "Lohra": {
+      "total_claims": 9,
+      "claim_area_ha": 165.66,
+      "approved_claims": 5
+    },
+    "Mahli": {
+      "total_claims": 11,
+      "claim_area_ha": 364.16,
+      "approved_claims": 5
+    },
+    "Mal Paharia": {
+      "total_claims": 7,
+      "claim_area_ha": 198.6,
+      "approved_claims": 3
+    },
+    "Munda": {
+      "total_claims": 7,
+      "claim_area_ha": 205.98000000000002,
+      "approved_claims": 3
+    },
+    "Oraon": {
+      "total_claims": 9,
+      "claim_area_ha": 214.66,
+      "approved_claims": 3
+    },
+    "Paharia": {
+      "total_claims": 9,
+      "claim_area_ha": 261.09000000000003,
+      "approved_claims": 5
+    },
+    "Sabar": {
+      "total_claims": 12,
+      "claim_area_ha": 289.35,
+      "approved_claims": 5
+    },
+    "Santal": {
+      "total_claims": 12,
+      "claim_area_ha": 268.83,
+      "approved_claims": 3
+    },
+    "Sauria Paharia": {
+      "total_claims": 25,
+      "claim_area_ha": 679.04,
+      "approved_claims": 11
+    }
+  },
+  "timeline_analysis": {
+    "2020": {
+      "claims_submitted": 43,
+      "claim_area_ha": 1107.64
+    },
+    "2021": {
+      "claims_submitted": 53,
+      "claim_area_ha": 1422.34
+    },
+    "2022": {
+      "claims_submitted": 54,
+      "claim_area_ha": 1235.96
+    },
+    "2023": {
+      "claims_submitted": 49,
+      "claim_area_ha": 1114.91
+    },
+    "2024": {
+      "claims_submitted": 50,
+      "claim_area_ha": 1460.66
+    }
+  },
+  "performance_metrics": {
+    "overall_approval_rate": 41.77,
+    "average_processing_days": 310,
+    "documentation_completeness": 5.15,
+    "field_verification_rate": 69.88,
+    "gps_verification_rate": 92.37
+  }
+}
