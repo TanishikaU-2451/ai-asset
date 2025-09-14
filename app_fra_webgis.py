@@ -259,6 +259,11 @@ def india_webgis():
     """Serve the India Asset Management WebGIS."""
     return render_template('india_webgis.html')
 
+@app.route('/enhanced')
+def enhanced_webgis():
+    """Serve the Enhanced India Asset Management WebGIS Demo."""
+    return render_template('india_webgis_enhanced.html')
+
 @app.route('/api/assets')
 def get_assets():
     """API endpoint to get asset data."""

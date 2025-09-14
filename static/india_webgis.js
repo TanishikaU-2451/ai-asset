@@ -112,6 +112,7 @@ class IndiaWebGIS {
         this.showLoading(true);
         this.initializeMap();
         this.setupEventListeners();
+        this.setupOpacityControls();
         await this.loadData();
         this.setupLegend();
         this.showLoading(false);
@@ -174,6 +175,11 @@ class IndiaWebGIS {
         // Add click handler for feature selection
         this.map.on('click', (e) => {
             this.handleMapClick(e);
+        });
+        
+        // Add zoom change handler for statistics
+        this.map.on('zoomend', () => {
+            this.updateZoomStatistic();
         });
     }
     
@@ -260,6 +266,9 @@ class IndiaWebGIS {
             
             // Populate filter options
             this.populateFilterOptions();
+            
+            // Update statistics
+            this.updateStatistics();
             
         } catch (error) {
             console.error('Error loading data:', error);
@@ -808,6 +817,48 @@ class IndiaWebGIS {
     
     showError(message) {
         alert(`Error: ${message}`);
+    }
+    
+    updateStatistics() {
+        // Update asset count
+        const totalAssets = this.data.assets ? this.data.assets.features.length : 0;
+        const totalFRA = this.data.fra ? this.data.fra.features.length : 0;
+        
+        const totalAssetsEl = document.getElementById('total-assets');
+        const totalFRAEl = document.getElementById('total-fra');
+        
+        if (totalAssetsEl) totalAssetsEl.textContent = totalAssets.toLocaleString();
+        if (totalFRAEl) totalFRAEl.textContent = totalFRA.toLocaleString();
+        
+        console.log(`Statistics updated: ${totalAssets} assets, ${totalFRA} FRA claims`);
+    }
+    
+    updateZoomStatistic() {
+        const zoomEl = document.getElementById('map-zoom');
+        if (zoomEl) {
+            zoomEl.textContent = this.map.getZoom();
+        }
+    }
+    
+    setupOpacityControls() {
+        // Setup opacity value display updates
+        const opacityControls = [
+            { slider: 'assets-opacity', display: 'assets-opacity-value' },
+            { slider: 'fra-opacity', display: 'fra-opacity-value' },
+            { slider: 'admin-opacity', display: 'admin-opacity-value' }
+        ];
+        
+        opacityControls.forEach(control => {
+            const slider = document.getElementById(control.slider);
+            const display = document.getElementById(control.display);
+            
+            if (slider && display) {
+                slider.addEventListener('input', (e) => {
+                    const value = Math.round(e.target.value * 100);
+                    display.textContent = `${value}%`;
+                });
+            }
+        });
     }
 }
 
