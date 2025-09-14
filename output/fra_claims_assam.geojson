@@ -8,107 +8,109 @@
         "fra_type": "CFR",
         "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_1",
-        "block": "Block_30",
-        "village": "Village_334",
-        "panchayat": "Panchayat_83",
-        "claim_area_ha": 2.98,
-        "claim_area_acres": 4.23,
-        "status": "disputed",
-        "status_name": "Disputed",
-        "submission_date": "2021-05-31",
-        "last_updated": "2023-12-31",
+        "district": "District_19",
+        "block": "Block_32",
+        "village": "Village_377",
+        "panchayat": "Panchayat_54",
+        "claim_area_ha": 33.73,
+        "claim_area_acres": 49.31,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2021-04-14",
+        "last_updated": "2024-05-26",
         "applicant_type": "Community",
         "community_name": "Community_212",
-        "tribal_community": "Mahli",
-        "community_members": 101,
+        "tribal_community": "Munda",
+        "community_members": 113,
         "community_id": "COMM_000212",
-        "forest_type": "Tropical Dry Deciduous",
-        "land_use": "Sacred Grove",
+        "forest_type": "Mangrove",
+        "land_use": "Traditional Forest Area",
         "biodiversity_rich": false,
         "water_source": true,
         "wildlife_corridor": false,
-        "documents_submitted": 7,
+        "documents_submitted": 5,
         "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Fishing"
+          "Medicinal Plant Collection",
+          "Grazing",
+          "NTFP Collection"
         ],
-        "annual_income_rs": 47259,
+        "annual_income_rs": 24523,
         "dependence_level": "High",
-        "frc_constituted": false,
+        "frc_constituted": true,
         "frc_meetings_held": 2,
-        "objections_received": 1,
+        "objections_received": 4,
         "appeal_filed": false,
-        "court_case": true,
-        "centroid_lat": 10.867385,
-        "centroid_lon": 82.090697,
-        "perimeter_km": 13.42,
-        "elevation_m": 518,
-        "slope_degrees": 36.0,
+        "court_case": false,
+        "centroid_lat": 15.077374,
+        "centroid_lon": 87.026302,
+        "perimeter_km": 17.68,
+        "elevation_m": 1580,
+        "slope_degrees": 10.6,
         "aspect": "East",
-        "data_quality_score": 0.83,
-        "completeness_score": 0.71,
-        "accuracy_score": 0.89,
-        "verification_level": "Medium"
+        "data_quality_score": 0.92,
+        "completeness_score": 0.8,
+        "accuracy_score": 0.99,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.62503696436762,
-              26.18327007123511
+              93.39235622168619,
+              26.2830990931306
             ],
             [
-              93.62273098233474,
-              26.19589066911732
+              93.37656675888427,
+              26.29163806137928
             ],
             [
-              93.61321432548138,
-              26.205432794932523
+              93.37084984384788,
+              26.299675034797087
             ],
             [
-              93.60024646607084,
-              26.20306779281722
+              93.35724592379394,
+              26.325066075585667
             ],
             [
-              93.58876169181549,
-              26.199809223352066
+              93.35288592014209,
+              26.295094344863166
             ],
             [
-              93.59299106994332,
-              26.186236250467964
+              93.32259228136036,
+              26.29504604560189
             ],
             [
-              93.5865067929872,
-              26.178399936500387
+              93.32419784242882,
+              26.271623575925037
             ],
             [
-              93.59129894457746,
-              26.169659064898607
+              93.34619525830702,
+              26.263382406027286
             ],
             [
-              93.60119101031613,
-              26.170041799178573
+              93.36000409897717,
+              26.2603156404462
             ],
             [
-              93.61437454660279,
-              26.1585668176563
+              93.37011034633724,
+              26.268142425142482
             ],
             [
-              93.617325474724,
-              26.17412338215611
+              93.3756608150788,
+              26.275142339613193
             ],
             [
-              93.62697048708587,
-              26.18327007123511
+              93.39996414669355,
+              26.2830990931306
             ],
             [
-              93.62503696436762,
-              26.18327007123511
+              93.39235622168619,
+              26.2830990931306
             ]
           ]
         ]
@@ -118,110 +120,110 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000213",
-        "fra_type": "CR",
-        "fra_type_name": "Community Resource Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_17",
-        "block": "Block_23",
-        "village": "Village_64",
-        "panchayat": "Panchayat_10",
-        "claim_area_ha": 14.76,
-        "claim_area_acres": 36.28,
-        "status": "appealed",
-        "status_name": "Appealed",
-        "submission_date": "2024-03-24",
-        "last_updated": "2023-08-26",
-        "applicant_type": "Community",
-        "community_name": "Community_213",
-        "tribal_community": "Bhumij",
-        "community_members": 17,
-        "community_id": "COMM_000213",
-        "forest_type": "Mangrove",
-        "land_use": "Traditional Forest Area",
+        "district": "District_16",
+        "block": "Block_38",
+        "village": "Village_553",
+        "panchayat": "Panchayat_61",
+        "claim_area_ha": 30.71,
+        "claim_area_acres": 2.64,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2024-09-17",
+        "last_updated": "2023-05-21",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_213",
+        "tribal_community": "Sauria Paharia",
+        "family_members": 7,
+        "household_id": "HH_000213",
+        "forest_type": "Tropical Thorn",
+        "land_use": "Revenue Land",
         "biodiversity_rich": true,
         "water_source": false,
         "wildlife_corridor": false,
-        "documents_submitted": 6,
+        "documents_submitted": 7,
         "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Medicinal Plant Collection"
+          "Agriculture"
         ],
-        "annual_income_rs": 17474,
+        "annual_income_rs": 45792,
         "dependence_level": "Low",
-        "frc_constituted": false,
-        "frc_meetings_held": 7,
-        "objections_received": 4,
-        "appeal_filed": true,
+        "frc_constituted": true,
+        "frc_meetings_held": 9,
+        "objections_received": 0,
+        "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 34.80341,
-        "centroid_lon": 83.155357,
-        "perimeter_km": 15.38,
-        "elevation_m": 1769,
-        "slope_degrees": 34.7,
-        "aspect": "Northwest",
-        "data_quality_score": 0.77,
+        "centroid_lat": 24.655762,
+        "centroid_lon": 86.260723,
+        "perimeter_km": 7.65,
+        "elevation_m": 1446,
+        "slope_degrees": 7.5,
+        "aspect": "Southeast",
+        "data_quality_score": 0.68,
         "completeness_score": 0.82,
-        "accuracy_score": 0.84,
-        "verification_level": "High"
+        "accuracy_score": 0.96,
+        "verification_level": "Medium"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.59965236924542,
-              26.44335901158187
+              92.94361806931285,
+              26.310154484345937
             ],
             [
-              92.61339892990023,
-              26.46291660629739
+              92.941845806754,
+              26.336947655549444
             ],
             [
-              92.59318600898226,
-              26.46573613638734
+              92.91514957617281,
+              26.342988423535566
             ],
             [
-              92.57655401065765,
-              26.487960374309846
+              92.89757692440932,
+              26.3280841320839
             ],
             [
-              92.56567390777086,
-              26.46331597902684
+              92.86830291406265,
+              26.346913541697038
             ],
             [
-              92.54035928284623,
-              26.45586968348614
+              92.86152485259738,
+              26.32149726577769
             ],
             [
-              92.5552150123135,
-              26.435210375421114
+              92.85966370940967,
+              26.29826522196712
             ],
             [
-              92.55263018536071,
-              26.40834878601883
+              92.88248222819982,
+              26.28975922782809
             ],
             [
-              92.5779184349427,
-              26.40824742820191
+              92.89380060177696,
+              26.265959935784384
             ],
             [
-              92.59697885206029,
-              26.412676718910184
+              92.90961339362856,
+              26.289443093973162
             ],
             [
-              92.60206186745258,
-              26.43108730449717
+              92.9166564441238,
+              26.299549533544596
             ],
             [
-              92.61364964246167,
-              26.44335901158187
+              92.94331778028126,
+              26.310154484345937
             ],
             [
-              92.59965236924542,
-              26.44335901158187
+              92.94361806931285,
+              26.310154484345937
             ]
           ]
         ]
@@ -234,109 +236,108 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_8",
-        "block": "Block_43",
-        "village": "Village_578",
-        "panchayat": "Panchayat_23",
-        "claim_area_ha": 28.63,
-        "claim_area_acres": 77.16,
-        "status": "submitted",
-        "status_name": "Submitted",
-        "submission_date": "2022-10-26",
-        "last_updated": "2024-05-27",
+        "district": "District_10",
+        "block": "Block_32",
+        "village": "Village_801",
+        "panchayat": "Panchayat_26",
+        "claim_area_ha": 24.54,
+        "claim_area_acres": 98.07,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2020-06-14",
+        "last_updated": "2023-12-05",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_214",
-        "tribal_community": "Sauria Paharia",
+        "tribal_community": "Santal",
         "family_members": 3,
         "household_id": "HH_000214",
-        "forest_type": "Tropical Semi-Evergreen",
+        "forest_type": "Tropical Thorn",
         "land_use": "Revenue Land",
-        "biodiversity_rich": true,
+        "biodiversity_rich": false,
         "water_source": true,
         "wildlife_corridor": true,
-        "documents_submitted": 5,
-        "field_verification_done": false,
-        "satellite_verification": true,
+        "documents_submitted": 4,
+        "field_verification_done": true,
+        "satellite_verification": false,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": false,
+        "boundary_demarcated": true,
         "livelihood_activities": [
           "Bamboo Work",
-          "Medicinal Plant Collection",
-          "Fishing"
+          "Grazing"
         ],
-        "annual_income_rs": 88543,
+        "annual_income_rs": 79566,
         "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 5,
-        "objections_received": 2,
+        "frc_meetings_held": 3,
+        "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 22.256506,
-        "centroid_lon": 86.40599,
-        "perimeter_km": 10.56,
-        "elevation_m": 1394,
-        "slope_degrees": 9.8,
+        "centroid_lat": 8.480742,
+        "centroid_lon": 96.653062,
+        "perimeter_km": 4.76,
+        "elevation_m": 682,
+        "slope_degrees": 16.0,
         "aspect": "East",
-        "data_quality_score": 0.71,
-        "completeness_score": 0.95,
-        "accuracy_score": 0.8,
-        "verification_level": "Low"
+        "data_quality_score": 0.69,
+        "completeness_score": 1.0,
+        "accuracy_score": 0.93,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.31174341967551,
-              26.009645396806054
+              92.84623712236603,
+              26.347661725453538
             ],
             [
-              92.30559175283149,
-              26.036500025980306
+              92.82955917546346,
+              26.36029765080023
             ],
             [
-              92.28162417509071,
-              26.048663653802926
+              92.82670076807804,
+              26.384456206025856
             ],
             [
-              92.26143931216671,
-              26.026100050348806
+              92.80500030891888,
+              26.381720989744498
             ],
             [
-              92.2497141488232,
-              26.025907260794302
+              92.79418295644366,
+              26.36579703524752
             ],
             [
-              92.22076354263346,
-              26.02228354838275
+              92.78677189855077,
+              26.354451953580924
             ],
             [
-              92.22237940030719,
-              25.997481703851182
+              92.77344777306888,
+              26.336959181089433
             ],
             [
-              92.23330923710192,
-              25.974451255452525
+              92.77949052592727,
+              26.312570446957483
             ],
             [
-              92.25829111685805,
-              25.971294563936148
+              92.80399304123992,
+              26.30659676057337
             ],
             [
-              92.27705697058222,
-              25.98062792268948
+              92.82780014517331,
+              26.308459944833018
             ],
             [
-              92.28514008993336,
-              25.995934253294628
+              92.82606482749063,
+              26.33727148118963
             ],
             [
-              92.3005252974862,
-              26.009645396806054
+              92.85717053064062,
+              26.347661725453538
             ],
             [
-              92.31174341967551,
-              26.009645396806054
+              92.84623712236603,
+              26.347661725453538
             ]
           ]
         ]
@@ -349,52 +350,51 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_11",
-        "block": "Block_14",
-        "village": "Village_558",
-        "panchayat": "Panchayat_86",
-        "claim_area_ha": 10.37,
-        "claim_area_acres": 92.79,
-        "status": "appealed",
-        "status_name": "Appealed",
-        "submission_date": "2024-09-12",
-        "last_updated": "2024-11-15",
+        "district": "District_9",
+        "block": "Block_33",
+        "village": "Village_433",
+        "panchayat": "Panchayat_69",
+        "claim_area_ha": 47.53,
+        "claim_area_acres": 24.6,
+        "status": "field_verification",
+        "status_name": "Field Verification",
+        "submission_date": "2024-04-17",
+        "last_updated": "2024-01-30",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_215",
-        "tribal_community": "Korwa",
-        "family_members": 5,
+        "tribal_community": "Sauria Paharia",
+        "family_members": 2,
         "household_id": "HH_000215",
-        "forest_type": "Mangrove",
-        "land_use": "Forest Land",
-        "biodiversity_rich": false,
-        "water_source": true,
-        "wildlife_corridor": true,
-        "documents_submitted": 5,
-        "field_verification_done": false,
+        "forest_type": "Tropical Evergreen",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": true,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": true,
         "satellite_verification": true,
-        "gps_coordinates_verified": true,
-        "boundary_demarcated": false,
+        "gps_coordinates_verified": false,
+        "boundary_demarcated": true,
         "livelihood_activities": [
-          "Agriculture",
-          "NTFP Collection",
-          "Hunting"
+          "Hunting",
+          "Grazing"
         ],
-        "annual_income_rs": 92618,
-        "dependence_level": "High",
+        "annual_income_rs": 65151,
+        "dependence_level": "Low",
         "frc_constituted": true,
-        "frc_meetings_held": 9,
+        "frc_meetings_held": 3,
         "objections_received": 1,
-        "appeal_filed": true,
+        "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 36.549256,
-        "centroid_lon": 91.327445,
-        "perimeter_km": 13.08,
-        "elevation_m": 310,
-        "slope_degrees": 41.8,
-        "aspect": "Northeast",
-        "data_quality_score": 0.68,
-        "completeness_score": 0.89,
-        "accuracy_score": 0.98,
+        "centroid_lat": 36.665851,
+        "centroid_lon": 91.660772,
+        "perimeter_km": 17.95,
+        "elevation_m": 1340,
+        "slope_degrees": 7.9,
+        "aspect": "East",
+        "data_quality_score": 0.62,
+        "completeness_score": 0.82,
+        "accuracy_score": 1.0,
         "verification_level": "High"
       },
       "geometry": {
@@ -402,56 +402,56 @@
         "coordinates": [
           [
             [
-              92.57464263998118,
-              26.640246237591196
+              93.1104911316557,
+              25.567696477555813
             ],
             [
-              92.58911329177073,
-              26.665971115998776
+              93.11219765967476,
+              25.583809540370357
             ],
             [
-              92.56161513519987,
-              26.667684283205507
+              93.09639636233123,
+              25.587997393789998
             ],
             [
-              92.5456351906145,
-              26.664237404248425
+              93.08294733116512,
+              25.596754503301337
             ],
             [
-              92.52927680340395,
-              26.663105653019286
+              93.06987642475784,
+              25.587602676733706
             ],
             [
-              92.51893753908968,
-              26.649098213249296
+              93.05351126017254,
+              25.577566433897456
             ],
             [
-              92.51583603131,
-              26.630483577080927
+              93.04967074848952,
+              25.556698845237594
             ],
             [
-              92.5192153348838,
-              26.605775268503955
+              93.06288677795486,
+              25.539723795960484
             ],
             [
-              92.54650332357534,
-              26.622293068302746
+              93.0815964685791,
+              25.5292429961508
             ],
             [
-              92.57115284024968,
-              26.591923531085914
+              93.10239324929027,
+              25.53426421055258
             ],
             [
-              92.59448507789608,
-              26.61106912186316
+              93.11142436077515,
+              25.55208038376774
             ],
             [
-              92.57958570910397,
-              26.640246237591196
+              93.12593329526584,
+              25.567696477555813
             ],
             [
-              92.57464263998118,
-              26.640246237591196
+              93.1104911316557,
+              25.567696477555813
             ]
           ]
         ]
@@ -464,109 +464,109 @@
         "fra_type": "CFR",
         "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_16",
-        "block": "Block_35",
-        "village": "Village_232",
-        "panchayat": "Panchayat_68",
-        "claim_area_ha": 3.44,
-        "claim_area_acres": 19.06,
+        "district": "District_14",
+        "block": "Block_11",
+        "village": "Village_417",
+        "panchayat": "Panchayat_10",
+        "claim_area_ha": 42.31,
+        "claim_area_acres": 46.33,
         "status": "under_review",
         "status_name": "Under Review",
-        "submission_date": "2020-10-07",
-        "last_updated": "2024-11-14",
+        "submission_date": "2024-10-07",
+        "last_updated": "2023-09-29",
         "applicant_type": "Community",
         "community_name": "Community_216",
-        "tribal_community": "Kumarbhag Paharia",
-        "community_members": 58,
+        "tribal_community": "Karmali",
+        "community_members": 37,
         "community_id": "COMM_000216",
-        "forest_type": "Mangrove",
-        "land_use": "Revenue Land",
+        "forest_type": "Tropical Moist Deciduous",
+        "land_use": "Common Property Resource",
         "biodiversity_rich": true,
-        "water_source": false,
+        "water_source": true,
         "wildlife_corridor": false,
-        "documents_submitted": 5,
+        "documents_submitted": 6,
         "field_verification_done": false,
-        "satellite_verification": false,
+        "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Hunting",
+          "NTFP Collection",
           "Grazing",
-          "Honey Collection"
+          "Hunting"
         ],
-        "annual_income_rs": 79173,
+        "annual_income_rs": 80284,
         "dependence_level": "Low",
         "frc_constituted": true,
-        "frc_meetings_held": 5,
-        "objections_received": 4,
+        "frc_meetings_held": 6,
+        "objections_received": 1,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 10.14532,
-        "centroid_lon": 86.847338,
-        "perimeter_km": 5.09,
-        "elevation_m": 585,
-        "slope_degrees": 23.7,
-        "aspect": "Southeast",
-        "data_quality_score": 0.67,
-        "completeness_score": 0.8,
+        "centroid_lat": 29.325325,
+        "centroid_lon": 77.075642,
+        "perimeter_km": 1.96,
+        "elevation_m": 158,
+        "slope_degrees": 10.8,
+        "aspect": "Northwest",
+        "data_quality_score": 0.85,
+        "completeness_score": 0.74,
         "accuracy_score": 0.93,
-        "verification_level": "Medium"
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.01185765529318,
-              26.29502566822791
+              92.65670986020044,
+              25.866445678839096
             ],
             [
-              93.01097922565285,
-              26.310130486342022
+              92.66260224444504,
+              25.889572169731654
             ],
             [
-              92.99344958369497,
-              26.30810671480857
+              92.63715070390063,
+              25.889511881304614
             ],
             [
-              92.98238297938776,
-              26.330446108683514
+              92.62007697504671,
+              25.911930619350315
             ],
             [
-              92.97216693446359,
-              26.31269289071043
+              92.6027632764282,
+              25.893974022731683
             ],
             [
-              92.95666591933087,
-              26.304072227232606
+              92.6048652340476,
+              25.872832492020265
             ],
             [
-              92.9500922894063,
-              26.28404891732259
+              92.60490889202472,
+              25.86007168479664
             ],
             [
-              92.97214307638343,
-              26.277330912053134
+              92.60193036410443,
+              25.837956102883666
             ],
             [
-              92.98361849765053,
-              26.268198446042156
+              92.62044832175889,
+              25.823543511442303
             ],
             [
-              92.99569858727928,
-              26.277019990726547
+              92.6413051894733,
+              25.834282421903072
             ],
             [
-              93.02348638097999,
-              26.27188298944967
+              92.65303740728542,
+              25.84946613554199
             ],
             [
-              93.0065193088152,
-              26.29502566822791
+              92.6418135852942,
+              25.866445678839096
             ],
             [
-              93.01185765529318,
-              26.29502566822791
+              92.65670986020044,
+              25.866445678839096
             ]
           ]
         ]
@@ -576,53 +576,55 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000217",
-        "fra_type": "CFR",
-        "fra_type_name": "Community Forest Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_1",
-        "block": "Block_33",
-        "village": "Village_538",
-        "panchayat": "Panchayat_94",
-        "claim_area_ha": 12.78,
-        "claim_area_acres": 114.24,
-        "status": "rejected",
-        "status_name": "Rejected",
-        "submission_date": "2020-12-27",
-        "last_updated": "2023-06-13",
-        "applicant_type": "Community",
-        "community_name": "Community_217",
-        "tribal_community": "Karmali",
-        "community_members": 38,
-        "community_id": "COMM_000217",
-        "forest_type": "Tropical Evergreen",
+        "district": "District_19",
+        "block": "Block_13",
+        "village": "Village_36",
+        "panchayat": "Panchayat_83",
+        "claim_area_ha": 45.59,
+        "claim_area_acres": 21.92,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2020-12-01",
+        "last_updated": "2024-12-10",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_217",
+        "tribal_community": "Lodha",
+        "family_members": 6,
+        "household_id": "HH_000217",
+        "forest_type": "Subtropical Pine",
         "land_use": "Sacred Grove",
         "biodiversity_rich": true,
-        "water_source": false,
-        "wildlife_corridor": true,
-        "documents_submitted": 4,
-        "field_verification_done": true,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 3,
+        "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Hunting"
+          "Grazing",
+          "Bamboo Work",
+          "Honey Collection"
         ],
-        "annual_income_rs": 11848,
-        "dependence_level": "Medium",
+        "annual_income_rs": 70764,
+        "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 6,
-        "objections_received": 1,
+        "frc_meetings_held": 8,
+        "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 16.691259,
-        "centroid_lon": 75.331977,
-        "perimeter_km": 15.82,
-        "elevation_m": 1804,
-        "slope_degrees": 33.6,
-        "aspect": "South",
-        "data_quality_score": 0.83,
-        "completeness_score": 0.71,
-        "accuracy_score": 0.88,
+        "centroid_lat": 26.54119,
+        "centroid_lon": 91.605538,
+        "perimeter_km": 19.74,
+        "elevation_m": 671,
+        "slope_degrees": 35.1,
+        "aspect": "North",
+        "data_quality_score": 0.64,
+        "completeness_score": 0.85,
+        "accuracy_score": 0.81,
         "verification_level": "High"
       },
       "geometry": {
@@ -630,56 +632,56 @@
         "coordinates": [
           [
             [
-              92.7803477167478,
-              25.81026129456436
+              93.15927542589941,
+              25.99716174478973
             ],
             [
-              92.78598321801795,
-              25.818817563201957
+              93.13743357064388,
+              26.014858767635907
             ],
             [
-              92.7751419906956,
-              25.815675503904934
+              93.11728478611471,
+              26.013339910085463
             ],
             [
-              92.7709926285373,
-              25.821923525034805
+              93.10613022469366,
+              26.02335652555724
             ],
             [
-              92.763933882257,
-              25.82034262422958
+              93.08280449986691,
+              26.0284275399394
             ],
             [
-              92.75815068008028,
-              25.814524376591518
+              93.06425930463782,
+              26.010562024306015
             ],
             [
-              92.75829567707673,
-              25.806040787496755
+              93.09208410099016,
+              25.991931562643106
             ],
             [
-              92.7657469158956,
-              25.802272317256882
+              93.08621201124457,
+              25.969828427401783
             ],
             [
-              92.77122897006822,
-              25.80024285554782
+              93.1033167348039,
+              25.95139871201702
             ],
             [
-              92.77830598779757,
-              25.797918897972288
+              93.12852027359759,
+              25.956381293640177
             ],
             [
-              92.78361185761065,
-              25.80322900672333
+              93.1435736251187,
+              25.975518748534896
             ],
             [
-              92.78909293709785,
-              25.81026129456436
+              93.13487035727198,
+              25.99716174478973
             ],
             [
-              92.7803477167478,
-              25.81026129456436
+              93.15927542589941,
+              25.99716174478973
             ]
           ]
         ]
@@ -692,51 +694,52 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_4",
-        "block": "Block_32",
-        "village": "Village_782",
-        "panchayat": "Panchayat_54",
-        "claim_area_ha": 19.05,
-        "claim_area_acres": 43.84,
-        "status": "submitted",
-        "status_name": "Submitted",
-        "submission_date": "2024-04-02",
-        "last_updated": "2023-09-20",
+        "district": "District_8",
+        "block": "Block_9",
+        "village": "Village_402",
+        "panchayat": "Panchayat_39",
+        "claim_area_ha": 17.73,
+        "claim_area_acres": 67.67,
+        "status": "disputed",
+        "status_name": "Disputed",
+        "submission_date": "2022-06-14",
+        "last_updated": "2023-06-21",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_218",
-        "tribal_community": "Sauria Paharia",
-        "family_members": 5,
+        "tribal_community": "Sabar",
+        "family_members": 2,
         "household_id": "HH_000218",
-        "forest_type": "Tropical Semi-Evergreen",
-        "land_use": "Common Property Resource",
+        "forest_type": "Tropical Evergreen",
+        "land_use": "Sacred Grove",
         "biodiversity_rich": true,
-        "water_source": true,
+        "water_source": false,
         "wildlife_corridor": true,
-        "documents_submitted": 4,
+        "documents_submitted": 6,
         "field_verification_done": false,
-        "satellite_verification": false,
+        "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Medicinal Plant Collection",
-          "Agriculture"
+          "Honey Collection",
+          "NTFP Collection",
+          "Bamboo Work"
         ],
-        "annual_income_rs": 46564,
-        "dependence_level": "Medium",
+        "annual_income_rs": 29923,
+        "dependence_level": "Low",
         "frc_constituted": true,
-        "frc_meetings_held": 2,
-        "objections_received": 1,
+        "frc_meetings_held": 9,
+        "objections_received": 0,
         "appeal_filed": false,
-        "court_case": false,
-        "centroid_lat": 13.656141,
-        "centroid_lon": 93.91257,
-        "perimeter_km": 4.58,
-        "elevation_m": 1433,
-        "slope_degrees": 42.4,
+        "court_case": true,
+        "centroid_lat": 26.400758,
+        "centroid_lon": 79.962176,
+        "perimeter_km": 7.7,
+        "elevation_m": 939,
+        "slope_degrees": 41.5,
         "aspect": "South",
-        "data_quality_score": 0.8,
-        "completeness_score": 0.92,
-        "accuracy_score": 0.82,
+        "data_quality_score": 0.63,
+        "completeness_score": 0.82,
+        "accuracy_score": 0.94,
         "verification_level": "Medium"
       },
       "geometry": {
@@ -744,56 +747,56 @@
         "coordinates": [
           [
             [
-              92.81390142252651,
-              26.4297159368076
+              92.47311549088064,
+              26.7345834447546
             ],
             [
-              92.81154075300599,
-              26.4335798823924
+              92.47851086796571,
+              26.760976970669788
             ],
             [
-              92.81177284903444,
-              26.443389512354578
+              92.44856486497171,
+              26.758939691046663
             ],
             [
-              92.80351441571874,
-              26.443723062235303
+              92.43182370005272,
+              26.7736577708085
             ],
             [
-              92.8007753414705,
-              26.43520118526668
+              92.40437012837522,
+              26.77275011914325
             ],
             [
-              92.79633280628735,
-              26.43241598804077
+              92.40694235384284,
+              26.743538872546278
             ],
             [
-              92.80053498149252,
-              26.428249755542634
+              92.41737831174717,
+              26.728692290682822
             ],
             [
-              92.79616485890766,
-              26.41890990783166
+              92.42080585741385,
+              26.715384612811334
             ],
             [
-              92.80458340397051,
-              26.423143787982198
+              92.43266438013345,
+              26.701356177094347
             ],
             [
-              92.81102045012756,
-              26.417689885056237
+              92.44973900364596,
+              26.707656193391344
             ],
             [
-              92.81808992870911,
-              26.42164309156578
+              92.4620405122536,
+              26.718774773735667
             ],
             [
-              92.81382056895812,
-              26.4297159368076
+              92.47957224348198,
+              26.7345834447546
             ],
             [
-              92.81390142252651,
-              26.4297159368076
+              92.47311549088064,
+              26.7345834447546
             ]
           ]
         ]
@@ -803,110 +806,111 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000219",
-        "fra_type": "CFR",
-        "fra_type_name": "Community Forest Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_14",
-        "block": "Block_15",
-        "village": "Village_477",
-        "panchayat": "Panchayat_69",
-        "claim_area_ha": 41.75,
-        "claim_area_acres": 109.64,
-        "status": "rejected",
-        "status_name": "Rejected",
-        "submission_date": "2022-12-03",
-        "last_updated": "2023-02-21",
-        "applicant_type": "Community",
-        "community_name": "Community_219",
-        "tribal_community": "Lohra",
-        "community_members": 178,
-        "community_id": "COMM_000219",
-        "forest_type": "Tropical Moist Deciduous",
+        "district": "District_4",
+        "block": "Block_49",
+        "village": "Village_515",
+        "panchayat": "Panchayat_68",
+        "claim_area_ha": 31.2,
+        "claim_area_acres": 69.86,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2022-10-09",
+        "last_updated": "2023-04-09",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_219",
+        "tribal_community": "Ho",
+        "family_members": 1,
+        "household_id": "HH_000219",
+        "forest_type": "Subtropical Pine",
         "land_use": "Forest Land",
         "biodiversity_rich": true,
-        "water_source": false,
+        "water_source": true,
         "wildlife_corridor": false,
-        "documents_submitted": 3,
-        "field_verification_done": true,
-        "satellite_verification": true,
+        "documents_submitted": 6,
+        "field_verification_done": false,
+        "satellite_verification": false,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Medicinal Plant Collection"
+          "Bamboo Work",
+          "Hunting"
         ],
-        "annual_income_rs": 79845,
-        "dependence_level": "Low",
+        "annual_income_rs": 90417,
+        "dependence_level": "Medium",
         "frc_constituted": true,
-        "frc_meetings_held": 0,
-        "objections_received": 0,
+        "frc_meetings_held": 7,
+        "objections_received": 3,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 34.786742,
-        "centroid_lon": 68.150448,
-        "perimeter_km": 12.99,
-        "elevation_m": 900,
-        "slope_degrees": 42.3,
-        "aspect": "Northeast",
-        "data_quality_score": 0.67,
-        "completeness_score": 0.7,
-        "accuracy_score": 0.84,
-        "verification_level": "High"
+        "centroid_lat": 24.749484,
+        "centroid_lon": 76.804532,
+        "perimeter_km": 5.68,
+        "elevation_m": 407,
+        "slope_degrees": 38.3,
+        "aspect": "Northwest",
+        "data_quality_score": 0.88,
+        "completeness_score": 0.98,
+        "accuracy_score": 0.99,
+        "verification_level": "Medium"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.93265667972668,
-              26.5127150797842
+              92.83749943065665,
+              25.745368140959503
             ],
             [
-              92.93285942093867,
-              26.51523237419454
+              92.84448876161436,
+              25.759664674146467
             ],
             [
-              92.93173555687002,
-              26.518831164917763
+              92.82867609764345,
+              25.759454831242316
             ],
             [
-              92.9282982246115,
-              26.51719565713044
+              92.81651912219178,
+              25.78517804130244
             ],
             [
-              92.92638974722426,
-              26.51566103780282
+              92.80288930869483,
+              25.767703401066523
             ],
             [
-              92.9246858046848,
-              26.513964939032885
+              92.79147023464691,
+              25.75440381715105
             ],
             [
-              92.92518452181638,
-              26.51161165709783
+              92.80720763039403,
+              25.74095338108917
             ],
             [
-              92.92428614256863,
-              26.50734143257811
+              92.80410362970616,
+              25.724434282005237
             ],
             [
-              92.92842761059687,
-              26.509134401732766
+              92.8160780388101,
+              25.70249043831196
             ],
             [
-              92.931513222308,
-              26.507085839432293
+              92.83833105709358,
+              25.710140038462868
             ],
             [
-              92.93214325445103,
-              26.510658037628613
+              92.84873925476977,
+              25.728339981687835
             ],
             [
-              92.93678738846295,
-              26.5127150797842
+              92.85632584785961,
+              25.745368140959503
             ],
             [
-              92.93265667972668,
-              26.5127150797842
+              92.83749943065665,
+              25.745368140959503
             ]
           ]
         ]
@@ -919,108 +923,109 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_14",
-        "block": "Block_32",
-        "village": "Village_301",
-        "panchayat": "Panchayat_2",
-        "claim_area_ha": 9.61,
-        "claim_area_acres": 69.0,
+        "district": "District_11",
+        "block": "Block_36",
+        "village": "Village_230",
+        "panchayat": "Panchayat_28",
+        "claim_area_ha": 34.42,
+        "claim_area_acres": 84.68,
         "status": "approved",
         "status_name": "Approved",
-        "submission_date": "2024-03-12",
-        "last_updated": "2024-05-22",
+        "submission_date": "2022-08-01",
+        "last_updated": "2023-10-27",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_220",
-        "tribal_community": "Bhumij",
-        "family_members": 1,
+        "tribal_community": "Chik Baraik",
+        "family_members": 7,
         "household_id": "HH_000220",
-        "forest_type": "Tropical Thorn",
-        "land_use": "Sacred Grove",
+        "forest_type": "Tropical Evergreen",
+        "land_use": "Traditional Forest Area",
         "biodiversity_rich": true,
-        "water_source": false,
-        "wildlife_corridor": false,
-        "documents_submitted": 7,
+        "water_source": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 4,
         "field_verification_done": true,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": true,
         "livelihood_activities": [
           "Honey Collection",
+          "Bamboo Work",
           "NTFP Collection"
         ],
-        "annual_income_rs": 20280,
+        "annual_income_rs": 18054,
         "dependence_level": "Low",
-        "frc_constituted": true,
+        "frc_constituted": false,
         "frc_meetings_held": 1,
         "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 25.968707,
-        "centroid_lon": 75.594693,
-        "perimeter_km": 2.27,
-        "elevation_m": 1676,
-        "slope_degrees": 41.8,
-        "aspect": "West",
-        "data_quality_score": 0.84,
-        "completeness_score": 0.81,
-        "accuracy_score": 0.97,
-        "verification_level": "Medium"
+        "centroid_lat": 18.965104,
+        "centroid_lon": 92.708908,
+        "perimeter_km": 4.86,
+        "elevation_m": 565,
+        "slope_degrees": 23.9,
+        "aspect": "South",
+        "data_quality_score": 0.8,
+        "completeness_score": 0.75,
+        "accuracy_score": 0.85,
+        "verification_level": "Low"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.51033112578148,
-              26.342330196722138
+              93.39651420617317,
+              26.893218936655927
             ],
             [
-              92.49461142796063,
-              26.351142289130316
+              93.39391875568653,
+              26.904292767425833
             ],
             [
-              92.48799773830437,
-              26.357873073049948
+              93.3905709012233,
+              26.92361926016943
             ],
             [
-              92.4787711526862,
-              26.357133487112552
+              93.37263617009307,
+              26.921396823997018
             ],
             [
-              92.47298109990491,
-              26.351468568959547
+              93.364482914879,
+              26.907303823338037
             ],
             [
-              92.46787376591281,
-              26.346154910413546
+              93.35330290884306,
+              26.900085283498722
             ],
             [
-              92.47141184393838,
-              26.33954435647312
+              93.33972328731758,
+              26.882365253169173
             ],
             [
-              92.46991071182434,
-              26.329648407747836
+              93.36350909513698,
+              26.878010202081615
             ],
             [
-              92.47692525232587,
-              26.314688387324125
+              93.37167599271498,
+              26.8583628689622
             ],
             [
-              92.49158771235773,
-              26.318926373728424
+              93.39015730545677,
+              26.863724261543673
             ],
             [
-              92.49855690478141,
-              26.330982500324932
+              93.40862903667988,
+              26.87269138232841
             ],
             [
-              92.5040221385894,
-              26.342330196722138
+              93.41103169010535,
+              26.893218936655927
             ],
             [
-              92.51033112578148,
-              26.342330196722138
+              93.39651420617317,
+              26.893218936655927
             ]
           ]
         ]
@@ -1033,108 +1038,109 @@
         "fra_type": "CFR",
         "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_15",
-        "block": "Block_17",
-        "village": "Village_92",
-        "panchayat": "Panchayat_35",
-        "claim_area_ha": 34.03,
-        "claim_area_acres": 92.21,
-        "status": "approved",
-        "status_name": "Approved",
-        "submission_date": "2020-03-14",
-        "last_updated": "2023-04-22",
+        "district": "District_6",
+        "block": "Block_36",
+        "village": "Village_796",
+        "panchayat": "Panchayat_29",
+        "claim_area_ha": 34.4,
+        "claim_area_acres": 50.53,
+        "status": "rejected",
+        "status_name": "Rejected",
+        "submission_date": "2023-02-15",
+        "last_updated": "2023-12-25",
         "applicant_type": "Community",
         "community_name": "Community_221",
-        "tribal_community": "Bhuiya",
-        "community_members": 115,
+        "tribal_community": "Lohra",
+        "community_members": 176,
         "community_id": "COMM_000221",
-        "forest_type": "Tropical Evergreen",
+        "forest_type": "Tropical Thorn",
         "land_use": "Sacred Grove",
         "biodiversity_rich": false,
-        "water_source": true,
-        "wildlife_corridor": true,
+        "water_source": false,
+        "wildlife_corridor": false,
         "documents_submitted": 5,
         "field_verification_done": true,
-        "satellite_verification": true,
+        "satellite_verification": false,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Grazing",
-          "NTFP Collection"
+          "Honey Collection",
+          "Fishing",
+          "Agriculture"
         ],
-        "annual_income_rs": 25220,
-        "dependence_level": "Medium",
+        "annual_income_rs": 31361,
+        "dependence_level": "Low",
         "frc_constituted": false,
         "frc_meetings_held": 1,
         "objections_received": 1,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 17.84508,
-        "centroid_lon": 81.764258,
-        "perimeter_km": 15.83,
-        "elevation_m": 1200,
-        "slope_degrees": 27.6,
-        "aspect": "Northeast",
-        "data_quality_score": 0.72,
-        "completeness_score": 0.92,
-        "accuracy_score": 0.8,
-        "verification_level": "High"
+        "centroid_lat": 17.829981,
+        "centroid_lon": 76.32978,
+        "perimeter_km": 12.94,
+        "elevation_m": 464,
+        "slope_degrees": 22.4,
+        "aspect": "East",
+        "data_quality_score": 0.97,
+        "completeness_score": 0.88,
+        "accuracy_score": 0.97,
+        "verification_level": "Medium"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.5008109297079,
-              25.867129833561812
+              92.4781793633585,
+              25.585801615136965
             ],
             [
-              93.49674297042047,
-              25.869168965218
+              92.47264634797664,
+              25.588777344575085
             ],
             [
-              93.4957077057827,
-              25.87181071331009
+              92.47367913224559,
+              25.598202095561266
             ],
             [
-              93.4932214227777,
-              25.86955437791808
+              92.4660523233882,
+              25.5994594430775
             ],
             [
-              93.48930876965242,
-              25.872047578189097
+              92.4593534757912,
+              25.595798727066313
             ],
             [
-              93.48959824106524,
-              25.8682960529722
+              92.46326101766171,
+              25.58719781055772
             ],
             [
-              93.49011798628393,
-              25.86611622511721
+              92.45381053086349,
+              25.581630506421092
             ],
             [
-              93.48965077000936,
-              25.86260677838648
+              92.46016503156277,
+              25.57674108849535
             ],
             [
-              93.49274353568266,
-              25.86138151145199
+              92.46611170506053,
+              25.572556795799283
             ],
             [
-              93.49595948926793,
-              25.861897624884907
+              92.47012306349757,
+              25.581187839115856
             ],
             [
-              93.49608523562874,
-              25.8655134023896
+              92.47884669023537,
+              25.578841167684068
             ],
             [
-              93.49834894221082,
-              25.867129833561812
+              92.48221302690979,
+              25.585801615136965
             ],
             [
-              93.5008109297079,
-              25.867129833561812
+              92.4781793633585,
+              25.585801615136965
             ]
           ]
         ]
@@ -1144,112 +1150,110 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000222",
-        "fra_type": "CFR",
-        "fra_type_name": "Community Forest Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
         "district": "District_12",
-        "block": "Block_6",
-        "village": "Village_477",
-        "panchayat": "Panchayat_12",
-        "claim_area_ha": 48.54,
-        "claim_area_acres": 5.44,
-        "status": "under_review",
-        "status_name": "Under Review",
-        "submission_date": "2020-04-10",
-        "last_updated": "2023-10-09",
-        "applicant_type": "Community",
-        "community_name": "Community_222",
-        "tribal_community": "Kharia",
-        "community_members": 146,
-        "community_id": "COMM_000222",
-        "forest_type": "Tropical Semi-Evergreen",
-        "land_use": "Sacred Grove",
-        "biodiversity_rich": true,
-        "water_source": true,
-        "wildlife_corridor": true,
-        "documents_submitted": 4,
-        "field_verification_done": false,
+        "block": "Block_20",
+        "village": "Village_554",
+        "panchayat": "Panchayat_30",
+        "claim_area_ha": 42.72,
+        "claim_area_acres": 63.12,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2022-02-09",
+        "last_updated": "2024-12-12",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_222",
+        "tribal_community": "Bhumij",
+        "family_members": 4,
+        "household_id": "HH_000222",
+        "forest_type": "Tropical Moist Deciduous",
+        "land_use": "Traditional Forest Area",
+        "biodiversity_rich": false,
+        "water_source": false,
+        "wildlife_corridor": false,
+        "documents_submitted": 6,
+        "field_verification_done": true,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": false,
+        "boundary_demarcated": true,
         "livelihood_activities": [
-          "Medicinal Plant Collection",
-          "Honey Collection",
-          "Agriculture"
+          "Hunting"
         ],
-        "annual_income_rs": 54758,
+        "annual_income_rs": 99978,
         "dependence_level": "Medium",
         "frc_constituted": true,
-        "frc_meetings_held": 0,
+        "frc_meetings_held": 5,
         "objections_received": 3,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 28.586754,
-        "centroid_lon": 95.466442,
-        "perimeter_km": 11.13,
-        "elevation_m": 867,
-        "slope_degrees": 14.8,
-        "aspect": "Northwest",
-        "data_quality_score": 0.83,
-        "completeness_score": 0.74,
-        "accuracy_score": 0.86,
-        "verification_level": "High"
+        "centroid_lat": 22.75371,
+        "centroid_lon": 96.006056,
+        "perimeter_km": 18.34,
+        "elevation_m": 1965,
+        "slope_degrees": 22.3,
+        "aspect": "East",
+        "data_quality_score": 0.8,
+        "completeness_score": 0.86,
+        "accuracy_score": 0.96,
+        "verification_level": "Low"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.25631227975566,
-              26.366809750038545
+              92.38649110654558,
+              25.63437677801166
             ],
             [
-              92.25814324888805,
-              26.371004346958824
+              92.37256622293256,
+              25.64083207376448
             ],
             [
-              92.25621165649511,
-              26.376872114375495
+              92.37069909110164,
+              25.652283014994268
             ],
             [
-              92.25081880165249,
-              26.37235667233856
+              92.36037948855233,
+              25.649275397704535
             ],
             [
-              92.24709890603197,
-              26.37202313368597
+              92.34825700784728,
+              25.650838979542936
             ],
             [
-              92.24233084068317,
-              26.369536215313598
+              92.34554425777141,
+              25.639361771556977
             ],
             [
-              92.24532121834167,
-              26.364961338867918
+              92.34082639580484,
+              25.628006495202932
             ],
             [
-              92.24935932866212,
-              26.364205033168723
+              92.35178585234095,
+              25.621987080122476
             ],
             [
-              92.25066021117605,
-              26.36015980674685
+              92.35962720124878,
+              25.614245885194435
             ],
             [
-              92.25553868917316,
-              26.35822097858755
+              92.36947174022463,
+              25.619158064571327
             ],
             [
-              92.26077555181585,
-              26.36092347474648
+              92.37183727236491,
+              25.628389950342957
             ],
             [
-              92.25715254203939,
-              26.366809750038545
+              92.38470547347208,
+              25.63437677801166
             ],
             [
-              92.25631227975566,
-              26.366809750038545
+              92.38649110654558,
+              25.63437677801166
             ]
           ]
         ]
@@ -1262,26 +1266,26 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_15",
-        "block": "Block_48",
-        "village": "Village_523",
-        "panchayat": "Panchayat_1",
-        "claim_area_ha": 48.05,
-        "claim_area_acres": 101.74,
+        "district": "District_6",
+        "block": "Block_39",
+        "village": "Village_75",
+        "panchayat": "Panchayat_94",
+        "claim_area_ha": 34.51,
+        "claim_area_acres": 99.59,
         "status": "approved",
         "status_name": "Approved",
-        "submission_date": "2024-12-12",
-        "last_updated": "2024-03-25",
+        "submission_date": "2020-09-28",
+        "last_updated": "2023-11-02",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_223",
-        "tribal_community": "Sauria Paharia",
-        "family_members": 1,
+        "tribal_community": "Lodha",
+        "family_members": 2,
         "household_id": "HH_000223",
         "forest_type": "Subtropical Pine",
-        "land_use": "Traditional Forest Area",
+        "land_use": "Revenue Land",
         "biodiversity_rich": true,
         "water_source": true,
-        "wildlife_corridor": true,
+        "wildlife_corridor": false,
         "documents_submitted": 6,
         "field_verification_done": true,
         "satellite_verification": true,
@@ -1289,81 +1293,82 @@
         "boundary_demarcated": true,
         "livelihood_activities": [
           "NTFP Collection",
-          "Hunting"
+          "Agriculture",
+          "Grazing"
         ],
-        "annual_income_rs": 88846,
+        "annual_income_rs": 36588,
         "dependence_level": "Low",
         "frc_constituted": true,
         "frc_meetings_held": 8,
-        "objections_received": 3,
+        "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 16.800161,
-        "centroid_lon": 84.681744,
-        "perimeter_km": 11.01,
-        "elevation_m": 204,
-        "slope_degrees": 25.3,
-        "aspect": "South",
-        "data_quality_score": 0.62,
-        "completeness_score": 0.71,
-        "accuracy_score": 0.96,
-        "verification_level": "Medium"
+        "centroid_lat": 23.802749,
+        "centroid_lon": 84.754598,
+        "perimeter_km": 15.9,
+        "elevation_m": 809,
+        "slope_degrees": 13.9,
+        "aspect": "Northwest",
+        "data_quality_score": 0.6,
+        "completeness_score": 0.88,
+        "accuracy_score": 0.9,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.4166555410216,
-              25.937538369470506
+              93.44220867114521,
+              26.369041464434165
             ],
             [
-              93.41508391275121,
-              25.943536765103417
+              93.42717718675515,
+              26.38343217243542
             ],
             [
-              93.41057019253434,
-              25.94809262188839
+              93.41601653079582,
+              26.393635506736874
             ],
             [
-              93.40438957391478,
-              25.947001919250447
+              93.39833595073694,
+              26.41389425201735
             ],
             [
-              93.39843438008832,
-              25.945981306832092
+              93.3841308746079,
+              26.392877374228753
             ],
             [
-              93.3994944933484,
-              25.93937521859084
+              93.38494383976688,
+              26.374867298357824
             ],
             [
-              93.40045811989206,
-              25.935984466632693
+              93.3751276250574,
+              26.360333329811432
             ],
             [
-              93.39912834627933,
-              25.929896311786518
+              93.38556398582358,
+              26.34685945314823
             ],
             [
-              93.4048148459336,
-              25.93103265155102
+              93.4015774725723,
+              26.346733956428945
             ],
             [
-              93.40862801864112,
-              25.931236884666966
+              93.4149457356536,
+              26.34679213643242
             ],
             [
-              93.41105993131146,
-              25.934126029681774
+              93.42641838207011,
+              26.355138410593273
             ],
             [
-              93.41576946263349,
-              25.937538369470506
+              93.42807876213259,
+              26.369041464434165
             ],
             [
-              93.4166555410216,
-              25.937538369470506
+              93.44220867114521,
+              26.369041464434165
             ]
           ]
         ]
@@ -1376,50 +1381,51 @@
         "fra_type": "CFR",
         "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_3",
-        "block": "Block_45",
-        "village": "Village_105",
-        "panchayat": "Panchayat_7",
-        "claim_area_ha": 12.34,
-        "claim_area_acres": 15.15,
-        "status": "field_verification",
-        "status_name": "Field Verification",
-        "submission_date": "2021-01-27",
-        "last_updated": "2023-01-14",
+        "district": "District_16",
+        "block": "Block_13",
+        "village": "Village_809",
+        "panchayat": "Panchayat_33",
+        "claim_area_ha": 46.76,
+        "claim_area_acres": 105.76,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2024-03-24",
+        "last_updated": "2024-01-29",
         "applicant_type": "Community",
         "community_name": "Community_224",
-        "tribal_community": "Sabar",
-        "community_members": 134,
+        "tribal_community": "Kharwar",
+        "community_members": 195,
         "community_id": "COMM_000224",
-        "forest_type": "Tropical Evergreen",
-        "land_use": "Forest Land",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Common Property Resource",
         "biodiversity_rich": true,
         "water_source": false,
-        "wildlife_corridor": false,
-        "documents_submitted": 4,
-        "field_verification_done": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 6,
+        "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Bamboo Work"
+          "Agriculture",
+          "Hunting"
         ],
-        "annual_income_rs": 13152,
-        "dependence_level": "Low",
+        "annual_income_rs": 81893,
+        "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 4,
-        "objections_received": 3,
+        "frc_meetings_held": 1,
+        "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 37.020449,
-        "centroid_lon": 95.186917,
-        "perimeter_km": 16.18,
-        "elevation_m": 142,
-        "slope_degrees": 42.5,
+        "centroid_lat": 7.094121,
+        "centroid_lon": 88.682922,
+        "perimeter_km": 5.58,
+        "elevation_m": 155,
+        "slope_degrees": 30.9,
         "aspect": "Northeast",
-        "data_quality_score": 0.67,
-        "completeness_score": 0.92,
-        "accuracy_score": 0.96,
+        "data_quality_score": 0.87,
+        "completeness_score": 0.98,
+        "accuracy_score": 0.9,
         "verification_level": "Medium"
       },
       "geometry": {
@@ -1427,56 +1433,56 @@
         "coordinates": [
           [
             [
-              93.13333738873332,
-              26.082186884596336
+              92.63802296061407,
+              25.877108250158262
             ],
             [
-              93.12115271063125,
-              26.110964993726576
+              92.63352184305295,
+              25.887686494926324
             ],
             [
-              93.09321567693651,
-              26.11906698648291
+              92.62874936785116,
+              25.902700513274866
             ],
             [
-              93.07090957183541,
-              26.120186548944588
+              92.61502797029353,
+              25.891253658001485
             ],
             [
-              93.04568629114499,
-              26.117601348438725
+              92.60089563384153,
+              25.89576496918248
             ],
             [
-              93.0366841439024,
-              26.093840613215978
+              92.58816316310094,
+              25.88559364760467
             ],
             [
-              93.05272476352744,
-              26.075243106861752
+              92.58734278682299,
+              25.868381968502465
             ],
             [
-              93.05024488172099,
-              26.052033314725566
+              92.60951672171997,
+              25.868400796919683
             ],
             [
-              93.07070515560068,
-              26.042765474106453
+              92.61476221867748,
+              25.8611144992262
             ],
             [
-              93.08760778354946,
-              26.057586356369235
+              92.62974285566145,
+              25.84934055218508
             ],
             [
-              93.11089699588746,
-              26.0599997231249
+              92.64392491459773,
+              25.85984435726568
             ],
             [
-              93.135443475272,
-              26.082186884596336
+              92.64931762616719,
+              25.877108250158262
             ],
             [
-              93.13333738873332,
-              26.082186884596336
+              92.63802296061407,
+              25.877108250158262
             ]
           ]
         ]
@@ -1489,52 +1495,52 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_5",
-        "block": "Block_1",
-        "village": "Village_781",
-        "panchayat": "Panchayat_82",
-        "claim_area_ha": 30.63,
-        "claim_area_acres": 71.59,
-        "status": "approved",
-        "status_name": "Approved",
-        "submission_date": "2024-11-20",
-        "last_updated": "2024-12-09",
+        "district": "District_9",
+        "block": "Block_37",
+        "village": "Village_650",
+        "panchayat": "Panchayat_39",
+        "claim_area_ha": 30.13,
+        "claim_area_acres": 40.7,
+        "status": "submitted",
+        "status_name": "Submitted",
+        "submission_date": "2021-11-05",
+        "last_updated": "2023-12-05",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_225",
-        "tribal_community": "Bhumij",
-        "family_members": 7,
+        "tribal_community": "Oraon",
+        "family_members": 4,
         "household_id": "HH_000225",
-        "forest_type": "Mangrove",
-        "land_use": "Common Property Resource",
+        "forest_type": "Tropical Semi-Evergreen",
+        "land_use": "Traditional Forest Area",
         "biodiversity_rich": false,
         "water_source": true,
         "wildlife_corridor": false,
-        "documents_submitted": 6,
-        "field_verification_done": true,
-        "satellite_verification": true,
+        "documents_submitted": 3,
+        "field_verification_done": false,
+        "satellite_verification": false,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Hunting",
+          "Medicinal Plant Collection",
           "NTFP Collection",
-          "Honey Collection"
+          "Agriculture"
         ],
-        "annual_income_rs": 83364,
-        "dependence_level": "High",
+        "annual_income_rs": 73163,
+        "dependence_level": "Medium",
         "frc_constituted": true,
-        "frc_meetings_held": 4,
-        "objections_received": 4,
+        "frc_meetings_held": 9,
+        "objections_received": 3,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 12.867219,
-        "centroid_lon": 68.871597,
-        "perimeter_km": 6.14,
-        "elevation_m": 1736,
-        "slope_degrees": 38.5,
-        "aspect": "Northwest",
-        "data_quality_score": 0.77,
-        "completeness_score": 0.88,
-        "accuracy_score": 0.99,
+        "centroid_lat": 17.167313,
+        "centroid_lon": 75.179447,
+        "perimeter_km": 14.29,
+        "elevation_m": 246,
+        "slope_degrees": 5.0,
+        "aspect": "Southwest",
+        "data_quality_score": 0.65,
+        "completeness_score": 0.71,
+        "accuracy_score": 0.87,
         "verification_level": "Medium"
       },
       "geometry": {
@@ -1542,56 +1548,56 @@
         "coordinates": [
           [
             [
-              92.99545045850964,
-              26.731127098271422
+              93.25965020974037,
+              26.514714315064694
             ],
             [
-              93.0061498361996,
-              26.744515408197568
+              93.24904013496986,
+              26.5299628526082
             ],
             [
-              92.99541895394027,
-              26.753246811664336
+              93.24459693409933,
+              26.556940355873913
             ],
             [
-              92.9815778318954,
-              26.757135109024794
+              93.22123006353145,
+              26.54311139618048
             ],
             [
-              92.9722508799917,
-              26.74620645769486
+              93.20013670041689,
+              26.543769252949385
             ],
             [
-              92.97522639569037,
-              26.734090031422216
+              93.17814592067413,
+              26.5285638037071
             ],
             [
-              92.95976567439533,
-              26.723624487748467
+              93.18582179828722,
+              26.503118667446046
             ],
             [
-              92.97719388650627,
-              26.721752272462176
+              93.19918604845762,
+              26.484562266334382
             ],
             [
-              92.98153434498407,
-              26.7048166294063
+              93.22095281201099,
+              26.484388907267974
             ],
             [
-              92.99134657434882,
-              26.71792465232832
+              93.23681285739204,
+              26.48953302469932
             ],
             [
-              92.99813203557761,
-              26.72289151592775
+              93.24335459290756,
+              26.503119653538672
             ],
             [
-              92.99550099455546,
-              26.731127098271422
+              93.26000292773664,
+              26.514714315064694
             ],
             [
-              92.99545045850964,
-              26.731127098271422
+              93.25965020974037,
+              26.514714315064694
             ]
           ]
         ]
@@ -1601,110 +1607,110 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000226",
-        "fra_type": "CR",
-        "fra_type_name": "Community Resource Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_15",
-        "block": "Block_36",
-        "village": "Village_698",
-        "panchayat": "Panchayat_80",
-        "claim_area_ha": 49.4,
-        "claim_area_acres": 101.57,
-        "status": "submitted",
-        "status_name": "Submitted",
-        "submission_date": "2023-11-18",
-        "last_updated": "2024-05-26",
-        "applicant_type": "Community",
-        "community_name": "Community_226",
-        "tribal_community": "Sabar",
-        "community_members": 156,
-        "community_id": "COMM_000226",
-        "forest_type": "Subtropical Pine",
-        "land_use": "Revenue Land",
-        "biodiversity_rich": false,
+        "district": "District_3",
+        "block": "Block_29",
+        "village": "Village_878",
+        "panchayat": "Panchayat_88",
+        "claim_area_ha": 35.86,
+        "claim_area_acres": 109.05,
+        "status": "approved",
+        "status_name": "Approved",
+        "submission_date": "2020-09-21",
+        "last_updated": "2023-09-02",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_226",
+        "tribal_community": "Lodha",
+        "family_members": 7,
+        "household_id": "HH_000226",
+        "forest_type": "Tropical Semi-Evergreen",
+        "land_use": "Common Property Resource",
+        "biodiversity_rich": true,
         "water_source": true,
-        "wildlife_corridor": false,
-        "documents_submitted": 4,
-        "field_verification_done": false,
+        "wildlife_corridor": true,
+        "documents_submitted": 3,
+        "field_verification_done": true,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": false,
+        "boundary_demarcated": true,
         "livelihood_activities": [
-          "Honey Collection"
+          "Agriculture"
         ],
-        "annual_income_rs": 48094,
-        "dependence_level": "High",
+        "annual_income_rs": 19426,
+        "dependence_level": "Medium",
         "frc_constituted": true,
-        "frc_meetings_held": 8,
-        "objections_received": 2,
+        "frc_meetings_held": 0,
+        "objections_received": 0,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 9.215535,
-        "centroid_lon": 80.064514,
-        "perimeter_km": 13.42,
-        "elevation_m": 1121,
-        "slope_degrees": 6.3,
-        "aspect": "Southeast",
-        "data_quality_score": 0.77,
-        "completeness_score": 0.76,
-        "accuracy_score": 0.92,
-        "verification_level": "High"
+        "centroid_lat": 8.385616,
+        "centroid_lon": 78.968611,
+        "perimeter_km": 9.28,
+        "elevation_m": 1409,
+        "slope_degrees": 6.2,
+        "aspect": "South",
+        "data_quality_score": 0.97,
+        "completeness_score": 0.92,
+        "accuracy_score": 0.93,
+        "verification_level": "Medium"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.43959453987172,
-              25.86307652624528
+              92.53365151978635,
+              26.132525120770442
             ],
             [
-              93.44245743755368,
-              25.880587377411825
+              92.53402485279845,
+              26.14230120919375
             ],
             [
-              93.42592066484555,
-              25.886529564222762
+              92.52843188532266,
+              26.15358762425245
             ],
             [
-              93.41233149923248,
-              25.88309708685578
+              92.51608632161123,
+              26.15148932319559
             ],
             [
-              93.40598662908366,
-              25.873720888270032
+              92.50935125339474,
+              26.14344451491674
             ],
             [
-              93.39448726778627,
-              25.86916127567822
+              92.48182729681763,
+              26.14338509201
             ],
             [
-              93.39077825399272,
-              25.855902712099876
+              92.48619676032624,
+              26.122948139776938
             ],
             [
-              93.39042097430838,
-              25.834468441002475
+              92.50319152041925,
+              26.11449701582037
             ],
             [
-              93.41033439591183,
-              25.829165806938633
+              92.51491980983211,
+              26.105447650711394
             ],
             [
-              93.4232455118338,
-              25.84548125627279
+              92.53048612188029,
+              26.106964466667115
             ],
             [
-              93.43579321683713,
-              25.849848509676498
+              92.53587341774771,
+              26.121561031790492
             ],
             [
-              93.44980123936985,
-              25.86307652624528
+              92.55920581154872,
+              26.132525120770442
             ],
             [
-              93.43959453987172,
-              25.86307652624528
+              92.53365151978635,
+              26.132525120770442
             ]
           ]
         ]
@@ -1714,112 +1720,111 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000227",
-        "fra_type": "CFR",
-        "fra_type_name": "Community Forest Rights",
+        "fra_type": "CR",
+        "fra_type_name": "Community Resource Rights",
         "state": "Assam",
-        "district": "District_2",
-        "block": "Block_29",
-        "village": "Village_739",
-        "panchayat": "Panchayat_53",
-        "claim_area_ha": 12.8,
-        "claim_area_acres": 66.18,
+        "district": "District_12",
+        "block": "Block_26",
+        "village": "Village_514",
+        "panchayat": "Panchayat_99",
+        "claim_area_ha": 34.37,
+        "claim_area_acres": 30.68,
         "status": "rejected",
         "status_name": "Rejected",
-        "submission_date": "2023-02-22",
-        "last_updated": "2024-02-14",
+        "submission_date": "2020-04-29",
+        "last_updated": "2023-07-15",
         "applicant_type": "Community",
         "community_name": "Community_227",
-        "tribal_community": "Lohra",
-        "community_members": 155,
+        "tribal_community": "Oraon",
+        "community_members": 42,
         "community_id": "COMM_000227",
-        "forest_type": "Mangrove",
-        "land_use": "Sacred Grove",
-        "biodiversity_rich": true,
-        "water_source": true,
+        "forest_type": "Tropical Thorn",
+        "land_use": "Revenue Land",
+        "biodiversity_rich": false,
+        "water_source": false,
         "wildlife_corridor": true,
-        "documents_submitted": 6,
+        "documents_submitted": 7,
         "field_verification_done": true,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
-          "Honey Collection",
-          "Hunting",
-          "NTFP Collection"
+          "Fishing",
+          "Grazing"
         ],
-        "annual_income_rs": 17706,
+        "annual_income_rs": 28298,
         "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 1,
-        "objections_received": 0,
+        "frc_meetings_held": 0,
+        "objections_received": 3,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 22.855367,
-        "centroid_lon": 69.620954,
-        "perimeter_km": 1.15,
-        "elevation_m": 1418,
-        "slope_degrees": 43.8,
-        "aspect": "South",
-        "data_quality_score": 0.76,
-        "completeness_score": 0.92,
-        "accuracy_score": 0.91,
-        "verification_level": "Medium"
+        "centroid_lat": 34.335909,
+        "centroid_lon": 80.741405,
+        "perimeter_km": 1.35,
+        "elevation_m": 732,
+        "slope_degrees": 19.4,
+        "aspect": "Southwest",
+        "data_quality_score": 0.89,
+        "completeness_score": 0.82,
+        "accuracy_score": 0.88,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.17112490618818,
-              26.07888938910882
+              92.57844205699698,
+              26.17001277904997
             ],
             [
-              93.16100599421179,
-              26.08745013633762
+              92.58447717757127,
+              26.179474191957564
             ],
             [
-              93.1552591647538,
-              26.095474033350573
+              92.57350785720814,
+              26.17823053959586
             ],
             [
-              93.14581223942477,
-              26.09191619608783
+              92.5672323771877,
+              26.187557531168014
             ],
             [
-              93.12642253675634,
-              26.103427823863804
+              92.55748641351977,
+              26.184171403813956
             ],
             [
-              93.11671001849406,
-              26.087984526401716
+              92.55299291074235,
+              26.174934552482963
             ],
             [
-              93.13582145078455,
-              26.07540587465441
+              92.55573713946934,
+              26.165896783873904
             ],
             [
-              93.12918180013675,
-              26.057535314046184
+              92.55893519434088,
+              26.157526136483312
             ],
             [
-              93.14420219011781,
-              26.054664443229743
+              92.56857117458674,
+              26.161779567372673
             ],
             [
-              93.15790988975773,
-              26.056500466737983
+              92.57583189693233,
+              26.15670608135584
             ],
             [
-              93.17120458635911,
-              26.06377440468489
+              92.58576923452969,
+              26.15972101155492
             ],
             [
-              93.1738132560085,
-              26.07888938910882
+              92.58838597189454,
+              26.17001277904997
             ],
             [
-              93.17112490618818,
-              26.07888938910882
+              92.57844205699698,
+              26.17001277904997
             ]
           ]
         ]
@@ -1829,111 +1834,111 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000228",
-        "fra_type": "IFR",
-        "fra_type_name": "Individual Forest Rights",
+        "fra_type": "CFR",
+        "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_6",
-        "block": "Block_32",
-        "village": "Village_946",
-        "panchayat": "Panchayat_17",
-        "claim_area_ha": 46.21,
-        "claim_area_acres": 8.96,
-        "status": "approved",
-        "status_name": "Approved",
-        "submission_date": "2021-01-29",
-        "last_updated": "2024-10-30",
-        "applicant_type": "Individual",
-        "applicant_name": "Applicant_228",
-        "tribal_community": "Paharia",
-        "family_members": 2,
-        "household_id": "HH_000228",
+        "district": "District_19",
+        "block": "Block_24",
+        "village": "Village_807",
+        "panchayat": "Panchayat_5",
+        "claim_area_ha": 36.38,
+        "claim_area_acres": 48.98,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2023-05-25",
+        "last_updated": "2024-01-18",
+        "applicant_type": "Community",
+        "community_name": "Community_228",
+        "tribal_community": "Kharwar",
+        "community_members": 37,
+        "community_id": "COMM_000228",
         "forest_type": "Tropical Evergreen",
-        "land_use": "Revenue Land",
+        "land_use": "Forest Land",
         "biodiversity_rich": true,
         "water_source": true,
-        "wildlife_corridor": false,
-        "documents_submitted": 4,
-        "field_verification_done": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 3,
+        "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Grazing",
-          "Bamboo Work"
+          "Honey Collection",
+          "NTFP Collection"
         ],
-        "annual_income_rs": 81244,
-        "dependence_level": "Medium",
+        "annual_income_rs": 14667,
+        "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 0,
+        "frc_meetings_held": 9,
         "objections_received": 1,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 32.410843,
-        "centroid_lon": 84.624507,
-        "perimeter_km": 18.02,
-        "elevation_m": 1135,
-        "slope_degrees": 19.8,
-        "aspect": "Northwest",
-        "data_quality_score": 0.67,
-        "completeness_score": 0.83,
-        "accuracy_score": 0.95,
-        "verification_level": "Medium"
+        "centroid_lat": 36.202712,
+        "centroid_lon": 83.009689,
+        "perimeter_km": 1.74,
+        "elevation_m": 1256,
+        "slope_degrees": 28.2,
+        "aspect": "Southeast",
+        "data_quality_score": 0.84,
+        "completeness_score": 0.94,
+        "accuracy_score": 0.98,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.63805270737957,
-              26.815109818877357
+              92.52233952126069,
+              26.31534375615051
             ],
             [
-              92.63479182081367,
-              26.81766720574257
+              92.52882185351233,
+              26.33309554145379
             ],
             [
-              92.63372295250497,
-              26.82148293219246
+              92.52249541007612,
+              26.36197521494031
             ],
             [
-              92.62991382765813,
-              26.82135986881784
+              92.49809871488658,
+              26.336910443535327
             ],
             [
-              92.62800117916456,
-              26.81835419742133
+              92.46970019169231,
+              26.351695937806454
             ],
             [
-              92.62803580086646,
-              26.815925116382598
+              92.47271482685086,
+              26.323707621519524
             ],
             [
-              92.62558359795604,
-              26.813574489631556
+              92.46327236735019,
+              26.304207334513606
             ],
             [
-              92.62622584894882,
-              26.809816600045153
+              92.47119281850685,
+              26.28071415766573
             ],
             [
-              92.63017359494503,
-              26.810666490102466
+              92.49367528568504,
+              26.263011442893884
             ],
             [
-              92.63332096785795,
-              26.809616929158203
+              92.51212659155499,
+              26.29141684290106
             ],
             [
-              92.63677018726781,
-              26.81128101309353
+              92.53991659331662,
+              26.290461814523184
             ],
             [
-              92.63361187097262,
-              26.815109818877357
+              92.55506353322362,
+              26.31534375615051
             ],
             [
-              92.63805270737957,
-              26.815109818877357
+              92.52233952126069,
+              26.31534375615051
             ]
           ]
         ]
@@ -1946,107 +1951,108 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_1",
-        "block": "Block_33",
-        "village": "Village_205",
-        "panchayat": "Panchayat_96",
-        "claim_area_ha": 21.22,
-        "claim_area_acres": 78.1,
+        "district": "District_4",
+        "block": "Block_35",
+        "village": "Village_487",
+        "panchayat": "Panchayat_45",
+        "claim_area_ha": 28.62,
+        "claim_area_acres": 111.81,
         "status": "approved",
         "status_name": "Approved",
-        "submission_date": "2022-07-27",
-        "last_updated": "2023-01-15",
+        "submission_date": "2021-04-28",
+        "last_updated": "2023-05-27",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_229",
-        "tribal_community": "Sauria Paharia",
-        "family_members": 6,
+        "tribal_community": "Karmali",
+        "family_members": 3,
         "household_id": "HH_000229",
-        "forest_type": "Tropical Moist Deciduous",
-        "land_use": "Forest Land",
+        "forest_type": "Mangrove",
+        "land_use": "Sacred Grove",
         "biodiversity_rich": true,
         "water_source": true,
         "wildlife_corridor": false,
-        "documents_submitted": 7,
+        "documents_submitted": 4,
         "field_verification_done": true,
-        "satellite_verification": false,
+        "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": true,
         "livelihood_activities": [
-          "Medicinal Plant Collection"
+          "Fishing",
+          "Grazing"
         ],
-        "annual_income_rs": 12073,
-        "dependence_level": "Medium",
+        "annual_income_rs": 43677,
+        "dependence_level": "High",
         "frc_constituted": true,
-        "frc_meetings_held": 2,
-        "objections_received": 2,
+        "frc_meetings_held": 0,
+        "objections_received": 1,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 29.715908,
-        "centroid_lon": 87.0786,
-        "perimeter_km": 12.22,
-        "elevation_m": 1298,
-        "slope_degrees": 34.7,
-        "aspect": "Southeast",
-        "data_quality_score": 0.86,
-        "completeness_score": 0.79,
+        "centroid_lat": 13.781567,
+        "centroid_lon": 73.878151,
+        "perimeter_km": 7.01,
+        "elevation_m": 162,
+        "slope_degrees": 20.3,
+        "aspect": "East",
+        "data_quality_score": 0.92,
+        "completeness_score": 0.86,
         "accuracy_score": 0.84,
-        "verification_level": "Medium"
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              93.2281637550709,
-              26.107755764965976
+              93.3432382602725,
+              25.60991363171866
             ],
             [
-              93.22430957492259,
-              26.110375831705884
+              93.33798914206534,
+              25.618399688898787
             ],
             [
-              93.22529382005871,
-              26.118838134456073
+              93.32765324501746,
+              25.616195133341943
             ],
             [
-              93.21946956203125,
-              26.113063307875347
+              93.32221552935336,
+              25.627781766897503
             ],
             [
-              93.2137394524533,
-              26.115249339207633
+              93.3117227788382,
+              25.62498775307386
             ],
             [
-              93.20891960081786,
-              26.11107758223358
+              93.31532893933186,
+              25.612690058134568
             ],
             [
-              93.214237666946,
-              26.105995472804793
+              93.30556288035842,
+              25.60426963165655
             ],
             [
-              93.21407667765857,
-              26.100651369357482
+              93.31834915172692,
+              25.60248675233502
             ],
             [
-              93.21948874921627,
-              26.10258167185967
+              93.32248638553814,
+              25.593929342684167
             ],
             [
-              93.22228694618549,
-              26.103257530847642
+              93.32878733575149,
+              25.601148817781112
             ],
             [
-              93.22628610235961,
-              26.103865461171985
+              93.33327459960277,
+              25.604457427004412
             ],
             [
-              93.2320738541432,
-              26.107755764965976
+              93.34180078828443,
+              25.60991363171866
             ],
             [
-              93.2281637550709,
-              26.107755764965976
+              93.3432382602725,
+              25.60991363171866
             ]
           ]
         ]
@@ -2059,51 +2065,50 @@
         "fra_type": "IFR",
         "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_10",
-        "block": "Block_19",
-        "village": "Village_36",
-        "panchayat": "Panchayat_99",
-        "claim_area_ha": 48.13,
-        "claim_area_acres": 60.24,
-        "status": "approved",
-        "status_name": "Approved",
-        "submission_date": "2024-08-05",
-        "last_updated": "2024-06-09",
+        "district": "District_1",
+        "block": "Block_26",
+        "village": "Village_639",
+        "panchayat": "Panchayat_81",
+        "claim_area_ha": 29.07,
+        "claim_area_acres": 34.47,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2023-11-02",
+        "last_updated": "2023-08-01",
         "applicant_type": "Individual",
         "applicant_name": "Applicant_230",
-        "tribal_community": "Mahli",
-        "family_members": 4,
+        "tribal_community": "Sabar",
+        "family_members": 2,
         "household_id": "HH_000230",
-        "forest_type": "Tropical Dry Deciduous",
-        "land_use": "Revenue Land",
+        "forest_type": "Subtropical Pine",
+        "land_use": "Sacred Grove",
         "biodiversity_rich": true,
         "water_source": false,
-        "wildlife_corridor": true,
+        "wildlife_corridor": false,
         "documents_submitted": 4,
-        "field_verification_done": true,
+        "field_verification_done": false,
         "satellite_verification": true,
-        "gps_coordinates_verified": false,
-        "boundary_demarcated": true,
+        "gps_coordinates_verified": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Bamboo Work",
-          "Grazing"
+          "Fishing"
         ],
-        "annual_income_rs": 35303,
-        "dependence_level": "Low",
+        "annual_income_rs": 32346,
+        "dependence_level": "Medium",
         "frc_constituted": true,
-        "frc_meetings_held": 1,
+        "frc_meetings_held": 6,
         "objections_received": 4,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 23.74753,
-        "centroid_lon": 84.174278,
-        "perimeter_km": 12.36,
-        "elevation_m": 1984,
-        "slope_degrees": 22.0,
-        "aspect": "Northwest",
-        "data_quality_score": 0.84,
-        "completeness_score": 0.83,
-        "accuracy_score": 0.97,
+        "centroid_lat": 18.266508,
+        "centroid_lon": 69.559679,
+        "perimeter_km": 19.87,
+        "elevation_m": 1439,
+        "slope_degrees": 37.9,
+        "aspect": "Southeast",
+        "data_quality_score": 0.73,
+        "completeness_score": 0.95,
+        "accuracy_score": 0.92,
         "verification_level": "High"
       },
       "geometry": {
@@ -2111,56 +2116,56 @@
         "coordinates": [
           [
             [
-              93.51408841867698,
-              26.182227880553103
+              92.51390130668433,
+              26.83174384738339
             ],
             [
-              93.5121100017717,
-              26.205483963638702
+              92.51745729275801,
+              26.841621561390365
             ],
             [
-              93.49163272552133,
-              26.216627753067733
+              92.50522838196484,
+              26.838621923727235
             ],
             [
-              93.46902732553359,
-              26.230187168487923
+              92.50050117242256,
+              26.84277539658991
             ],
             [
-              93.45648124011396,
-              26.204664671493294
+              92.494901925175,
+              26.84003617706639
             ],
             [
-              93.42938520231469,
-              26.19589256099938
+              92.48247081846189,
+              26.837503757178307
             ],
             [
-              93.45189558710544,
-              26.17517284544763
+              92.48649049486453,
+              26.827164221073325
             ],
             [
-              93.46260923717136,
-              26.166863175214804
+              92.48966091642019,
+              26.817403071167693
             ],
             [
-              93.47281565255987,
-              26.160616985835603
+              92.49970861934193,
+              26.81519997042139
             ],
             [
-              93.49237608835209,
-              26.146200270489626
+              92.50699184012986,
+              26.821004336283554
             ],
             [
-              93.50810967035515,
-              26.16154265436466
+              92.51029123886441,
+              26.826471476574117
             ],
             [
-              93.49065726748742,
-              26.182227880553103
+              92.51871992982561,
+              26.83174384738339
             ],
             [
-              93.51408841867698,
-              26.182227880553103
+              92.51390130668433,
+              26.83174384738339
             ]
           ]
         ]
@@ -2170,111 +2175,112 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000231",
-        "fra_type": "IFR",
-        "fra_type_name": "Individual Forest Rights",
+        "fra_type": "CFR",
+        "fra_type_name": "Community Forest Rights",
         "state": "Assam",
-        "district": "District_5",
-        "block": "Block_38",
-        "village": "Village_802",
-        "panchayat": "Panchayat_25",
-        "claim_area_ha": 12.5,
-        "claim_area_acres": 75.5,
+        "district": "District_3",
+        "block": "Block_13",
+        "village": "Village_626",
+        "panchayat": "Panchayat_68",
+        "claim_area_ha": 2.02,
+        "claim_area_acres": 104.49,
         "status": "submitted",
         "status_name": "Submitted",
-        "submission_date": "2023-08-06",
-        "last_updated": "2024-03-18",
-        "applicant_type": "Individual",
-        "applicant_name": "Applicant_231",
-        "tribal_community": "Sauria Paharia",
-        "family_members": 1,
-        "household_id": "HH_000231",
-        "forest_type": "Subtropical Pine",
-        "land_use": "Common Property Resource",
+        "submission_date": "2020-03-25",
+        "last_updated": "2024-08-09",
+        "applicant_type": "Community",
+        "community_name": "Community_231",
+        "tribal_community": "Lohra",
+        "community_members": 160,
+        "community_id": "COMM_000231",
+        "forest_type": "Tropical Thorn",
+        "land_use": "Revenue Land",
         "biodiversity_rich": true,
-        "water_source": false,
-        "wildlife_corridor": true,
-        "documents_submitted": 3,
+        "water_source": true,
+        "wildlife_corridor": false,
+        "documents_submitted": 6,
         "field_verification_done": false,
-        "satellite_verification": false,
+        "satellite_verification": true,
         "gps_coordinates_verified": true,
         "boundary_demarcated": false,
         "livelihood_activities": [
           "Grazing",
+          "Fishing",
           "Agriculture"
         ],
-        "annual_income_rs": 68304,
-        "dependence_level": "Medium",
-        "frc_constituted": false,
-        "frc_meetings_held": 7,
-        "objections_received": 2,
+        "annual_income_rs": 37822,
+        "dependence_level": "Low",
+        "frc_constituted": true,
+        "frc_meetings_held": 3,
+        "objections_received": 1,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 26.24349,
-        "centroid_lon": 70.862417,
-        "perimeter_km": 15.94,
-        "elevation_m": 1976,
-        "slope_degrees": 21.2,
+        "centroid_lat": 21.15809,
+        "centroid_lon": 92.671398,
+        "perimeter_km": 16.78,
+        "elevation_m": 1610,
+        "slope_degrees": 30.4,
         "aspect": "Southeast",
-        "data_quality_score": 0.63,
-        "completeness_score": 0.88,
-        "accuracy_score": 0.91,
-        "verification_level": "Medium"
+        "data_quality_score": 0.9,
+        "completeness_score": 0.97,
+        "accuracy_score": 0.88,
+        "verification_level": "High"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.44834887903278,
-              25.862111015705892
+              93.56340597807397,
+              25.585613648396777
             ],
             [
-              92.43533448891269,
-              25.88706254731794
+              93.54627245237295,
+              25.59552103732933
             ],
             [
-              92.40731337712579,
-              25.885768977760026
+              93.54364355949453,
+              25.613613941106856
             ],
             [
-              92.3935819532959,
-              25.882470101175986
+              93.52677117108759,
+              25.614026026064586
             ],
             [
-              92.38307531498424,
-              25.87761448531503
+              93.509327488987,
+              25.610459168002574
             ],
             [
-              92.35311767490423,
-              25.874851901736875
+              93.5111177292079,
+              25.591409402288598
             ],
             [
-              92.35724377544697,
-              25.850581662106787
+              93.50796449394443,
+              25.578892021093132
             ],
             [
-              92.36710139948954,
-              25.82817266489209
+              93.52184543545002,
+              25.575214609120046
             ],
             [
-              92.39222289015605,
-              25.832299438471683
+              93.52819664989214,
+              25.567115693587528
             ],
             [
-              92.41602728983682,
-              25.819372246366044
+              93.54027498247622,
+              25.564989510468678
             ],
             [
-              92.4168187478633,
-              25.849058828329632
+              93.55052163313158,
+              25.57297547680571
             ],
             [
-              92.42159198139832,
-              25.862111015705892
+              93.56140581640959,
+              25.585613648396777
             ],
             [
-              92.44834887903278,
-              25.862111015705892
+              93.56340597807397,
+              25.585613648396777
             ]
           ]
         ]
@@ -2284,112 +2290,111 @@
       "type": "Feature",
       "properties": {
         "claim_id": "FRA_000232",
-        "fra_type": "CFR",
-        "fra_type_name": "Community Forest Rights",
+        "fra_type": "IFR",
+        "fra_type_name": "Individual Forest Rights",
         "state": "Assam",
-        "district": "District_11",
-        "block": "Block_31",
-        "village": "Village_352",
-        "panchayat": "Panchayat_61",
-        "claim_area_ha": 9.65,
-        "claim_area_acres": 91.69,
-        "status": "approved",
-        "status_name": "Approved",
-        "submission_date": "2021-07-17",
-        "last_updated": "2023-02-12",
-        "applicant_type": "Community",
-        "community_name": "Community_232",
-        "tribal_community": "Birhor",
-        "community_members": 49,
-        "community_id": "COMM_000232",
-        "forest_type": "Subtropical Pine",
-        "land_use": "Forest Land",
+        "district": "District_7",
+        "block": "Block_14",
+        "village": "Village_414",
+        "panchayat": "Panchayat_69",
+        "claim_area_ha": 37.34,
+        "claim_area_acres": 26.0,
+        "status": "under_review",
+        "status_name": "Under Review",
+        "submission_date": "2024-12-01",
+        "last_updated": "2023-02-01",
+        "applicant_type": "Individual",
+        "applicant_name": "Applicant_232",
+        "tribal_community": "Asur",
+        "family_members": 6,
+        "household_id": "HH_000232",
+        "forest_type": "Tropical Moist Deciduous",
+        "land_use": "Sacred Grove",
         "biodiversity_rich": true,
         "water_source": true,
-        "wildlife_corridor": false,
-        "documents_submitted": 3,
-        "field_verification_done": true,
+        "wildlife_corridor": true,
+        "documents_submitted": 5,
+        "field_verification_done": false,
         "satellite_verification": true,
         "gps_coordinates_verified": true,
-        "boundary_demarcated": true,
+        "boundary_demarcated": false,
         "livelihood_activities": [
-          "Fishing",
-          "Hunting",
-          "Medicinal Plant Collection"
+          "Bamboo Work",
+          "Grazing"
         ],
-        "annual_income_rs": 58648,
+        "annual_income_rs": 96800,
         "dependence_level": "High",
         "frc_constituted": true,
         "frc_meetings_held": 5,
-        "objections_received": 3,
+        "objections_received": 0,
         "appeal_filed": false,
         "court_case": false,
-        "centroid_lat": 9.412203,
-        "centroid_lon": 85.893372,
-        "perimeter_km": 18.65,
-        "elevation_m": 664,
-        "slope_degrees": 18.1,
-        "aspect": "Northwest",
-        "data_quality_score": 0.79,
-        "completeness_score": 0.97,
-        "accuracy_score": 0.87,
-        "verification_level": "High"
+        "centroid_lat": 26.614678,
+        "centroid_lon": 78.375551,
+        "perimeter_km": 4.6,
+        "elevation_m": 210,
+        "slope_degrees": 15.9,
+        "aspect": "South",
+        "data_quality_score": 0.96,
+        "completeness_score": 0.99,
+        "accuracy_score": 0.96,
+        "verification_level": "Low"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              92.51509021297639,
-              26.357037327868117
+              92.6853890004797,
+              25.62529420429368
             ],
             [
-              92.52843151474778,
-              26.38010851026659
+              92.68579822123142,
+              25.644461428364707
             ],
             [
-              92.50538160629456,
-              26.38517392223675
+              92.6668323313104,
+              25.649071863034965
             ],
             [
-              92.48886577759431,
-              26.38253684173153
+              92.65359386388026,
+              25.64184450868874
             ],
             [
-              92.45543779517455,
-              26.399846384836646
+              92.64407901154999,
+              25.639021104643085
             ],
             [
-              92.45767963126193,
-              26.367270922584446
+              92.63547330786993,
+              25.631313585729316
             ],
             [
-              92.43709197967858,
-              26.340758653219535
+              92.6400591294665,
+              25.620621341570686
             ],
             [
-              92.4617790029348,
-              26.321546414769408
+              92.64076414225542,
+              25.60774174084582
             ],
             [
-              92.48722702149101,
-              26.32014001495053
+              92.65260161456351,
+              25.601842654312964
             ],
             [
-              92.51551944657739,
-              26.306701959751727
+              92.67015756850677,
+              25.594235291742866
             ],
             [
-              92.52225306238927,
-              26.337936795699747
+              92.68966974320392,
+              25.603638904128676
             ],
             [
-              92.51624063431912,
-              26.357037327868117
+              92.67569595706334,
+              25.62529420429368
             ],
             [
-              92.51509021297639,
-              26.357037327868117
+              92.6853890004797,
+              25.62529420429368
             ]
           ]
         ]
@@ -2399,6 +2404,6 @@
   "properties": {
     "state": "Assam",
     "total_claims": 21,
-    "generated_at": "2025-09-13T22:34:51.945613"
+    "generated_at": "2025-09-14T11:51:48.905626"
   }
 }
