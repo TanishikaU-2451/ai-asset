@@ -254,14 +254,75 @@ def index():
     """Serve the FRA WebGIS main page."""
     return render_template('fra_webgis.html')
 
-@app.route('/test')
-def test_page():
-    """Serve the test page."""
-    return send_from_directory('.', 'test_fra_webgis.html')
+@app.route('/india')
+def india_webgis():
+    """Serve the India Asset Management WebGIS."""
+    return render_template('india_webgis.html')
 
-@app.route('/api/claims')
-def get_claims():
-    """API endpoint to get filtered FRA claims."""
+@app.route('/api/assets')
+def get_assets():
+    """API endpoint to get asset data."""
+    try:
+        # Try to load enhanced assets first, fallback to original
+        assets_files = ['output/assets_enhanced.geojson', 'output/assets.geojson']
+        assets_data = None
+        
+        for assets_file in assets_files:
+            try:
+                with open(assets_file, 'r') as f:
+                    assets_data = json.load(f)
+                print(f"Loaded assets from {assets_file}")
+                break
+            except FileNotFoundError:
+                continue
+        
+        if assets_data is None:
+            raise FileNotFoundError("No assets file found")
+            
+        # Add filtering based on query parameters
+        filters = {
+            'asset_type': request.args.get('asset_type'),
+            'state': request.args.get('state'),
+            'min_area': request.args.get('min_area'),
+            'max_area': request.args.get('max_area')
+        }
+        
+        # Apply filters if provided
+        if any(filters.values()):
+            filtered_features = []
+            for feature in assets_data['features']:
+                props = feature['properties']
+                
+                # Asset type filter
+                if filters['asset_type'] and props.get('class') != filters['asset_type']:
+                    continue
+                
+                # State filter
+                if filters['state'] and props.get('state') != filters['state']:
+                    continue
+                
+                # Area filters
+                area = props.get('area_km2', 0)
+                if filters['min_area'] and area < float(filters['min_area']):
+                    continue
+                if filters['max_area'] and area > float(filters['max_area']):
+                    continue
+                
+                filtered_features.append(feature)
+            
+            assets_data['features'] = filtered_features
+        
+        return jsonify(assets_data)
+    except Exception as e:
+        return jsonify({
+            'error': f'Error loading assets: {str(e)}',
+            'type': 'FeatureCollection',
+            'features': []
+        }), 500
+
+@app.route('/api/fra-claims')  
+def get_fra_claims():
+    """API endpoint to get FRA claims data."""
     try:
         # Get filters from query parameters
         filters = {
@@ -283,9 +344,20 @@ def get_claims():
     
     except Exception as e:
         return jsonify({
-            'error': f'Error loading claims: {str(e)}',
+            'error': f'Error loading FRA claims: {str(e)}',
+            'type': 'FeatureCollection',
             'features': []
         }), 500
+
+@app.route('/test')
+def test_page():
+    """Serve the test page."""
+    return send_from_directory('.', 'test_fra_webgis.html')
+
+@app.route('/api/claims')
+def get_claims():
+    """API endpoint to get filtered FRA claims (legacy endpoint)."""
+    return get_fra_claims()
 
 @app.route('/api/analytics')
 def get_analytics():

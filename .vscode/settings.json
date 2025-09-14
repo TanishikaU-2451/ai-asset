@@ -7,5 +7,12 @@
         "cursor-global": true,
         "cursor-workspace": true,
         "windsurf": true
-    }
+    },
+    "github.copilot.advanced": {
+
+
+    },
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.alternateGptPrompt.enabled": true
 }
