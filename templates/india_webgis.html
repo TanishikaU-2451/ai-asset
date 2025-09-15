@@ -1,0 +1,906 @@
+<!DOCTYPE html><!DOCTYPE html><!DOCTYPE html><!DOCTYPE html>
+
+<html lang="en">
+
+<head><html lang="en">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><head><html lang="en"><html lang="en">
+
+    <title>India Asset Management - WebGIS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />    <meta charset="UTF-8">
+
+    <style>
+
+        body {    <meta name="viewport" content="width=device-width, initial-scale=1.0"><head><head>
+
+            margin: 0;
+
+            padding: 0;    <title>India Asset Management - 3-Layer WebGIS</title>
+
+            font-family: Arial, sans-serif;
+
+            background: #2c3e50;        <meta charset="UTF-8">    <meta charset="UTF-8">
+
+        }
+
+        .header {    <!-- Leaflet CSS -->
+
+            background: #34495e;
+
+            color: white;    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            padding: 20px;
+
+            text-align: center;    
+
+        }
+
+        .container {    <style>    <title>India Asset Management - 3-Layer WebGIS</title>    <title>India Asset Management - 3-Layer WebGIS</title>
+
+            display: flex;
+
+            height: calc(100vh - 80px);        * {
+
+        }
+
+        .sidebar {            margin: 0;        
+
+            width: 300px;
+
+            background: #34495e;            padding: 0;
+
+            color: white;
+
+            padding: 20px;            box-sizing: border-box;    <!-- Leaflet CSS -->    <!-- Leaflet CSS -->
+
+            overflow-y: auto;
+
+        }        }
+
+        .map-container {
+
+            flex: 1;    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+        }
+
+        #map {        body {
+
+            height: 100%;
+
+            width: 100%;            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+
+        }
+
+        .btn {            background: #2c3e50;
+
+            display: block;
+
+            width: 100%;            overflow: hidden;    <style>    <!-- Leaflet Draw for admin controls -->
+
+            padding: 10px;
+
+            margin: 10px 0;        }
+
+            background: #3498db;
+
+            color: white;        * {    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+
+            text-decoration: none;
+
+            text-align: center;        .header {
+
+            border-radius: 5px;
+
+        }            background: rgba(0, 0, 0, 0.9);            margin: 0;    
+
+        .btn:hover {
+
+            background: #2980b9;            color: white;
+
+        }
+
+        .section {            padding: 15px;            padding: 0;    <!-- Custom CSS -->
+
+            margin-bottom: 20px;
+
+            padding: 15px;            text-align: center;
+
+            background: rgba(0,0,0,0.3);
+
+            border-radius: 5px;            position: relative;            box-sizing: border-box;    <style>
+
+        }
+
+    </style>            z-index: 1000;
+
+</head>
+
+<body>            border-bottom: 3px solid #3498db;        }        * {
+
+    <div class="header">
+
+        <h1>India Asset Management WebGIS</h1>        }
+
+        <p>3-Layer Spatial Visualization System</p>
+
+    </div>            margin: 0;
+
+    
+
+    <div class="container">        .header h1 {
+
+        <div class="sidebar">
+
+            <div class="section">            margin: 0;        body {            padding: 0;
+
+                <h3>Navigation</h3>
+
+                <a href="/vanachitra" class="btn">Vanachitra.AI Interface</a>            font-size: 1.8em;
+
+                <a href="/enhanced" class="btn">Enhanced Demo</a>
+
+                <a href="/" class="btn">Main Interface</a>            color: #3498db;            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            box-sizing: border-box;
+
+            </div>
+
+                    }
+
+            <div class="section">
+
+                <h3>System Layers</h3>            background: #2c3e50;        }
+
+                <ul>
+
+                    <li>Assets (Water, Forest, Agricultural)</li>        .header p {
+
+                    <li>FRA Boundaries (IFR/CFR/CR)</li>
+
+                    <li>Administrative Boundaries</li>            margin: 5px 0 0 0;            overflow: hidden;
+
+                </ul>
+
+            </div>            opacity: 0.9;
+
+            
+
+            <div class="section">        }        }        body {
+
+                <h3>Features</h3>
+
+                <ul>
+
+                    <li>Satellite imagery</li>
+
+                    <li>Interactive filtering</li>        .main-container {            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                    <li>Real-time analytics</li>
+
+                    <li>Spatial data visualization</li>            display: flex;
+
+                </ul>
+
+            </div>            height: calc(100vh - 80px);        .header {            background: #f5f5f5;
+
+        </div>
+
+                }
+
+        <div class="map-container">
+
+            <div id="map"></div>            background: rgba(0, 0, 0, 0.9);            overflow: hidden;
+
+        </div>
+
+    </div>        .sidebar {
+
+
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>            width: 300px;            color: white;        }
+
+    <script>
+
+        // Initialize map            background: rgba(52, 73, 94, 0.95);
+
+        const map = L.map('map').setView([20.5937, 78.9629], 5);
+
+                    color: white;            padding: 15px;
+
+        // Add satellite tiles
+
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {            overflow-y: auto;
+
+            attribution: '© Esri'
+
+        }).addTo(map);            padding: 20px;            text-align: center;        .main-container {
+
+        
+
+        // Add welcome marker        }
+
+        L.marker([20.5937, 78.9629])
+
+            .addTo(map)            position: relative;            display: flex;
+
+            .bindPopup('Welcome to India WebGIS System')
+
+            .openPopup();        .control-section {
+
+    </script>
+
+</body>            margin-bottom: 20px;            z-index: 1000;            height: 100vh;
+
+</html>
+            padding: 15px;
+
+            background: rgba(44, 62, 80, 0.8);            border-bottom: 3px solid #3498db;        }
+
+            border-radius: 8px;
+
+            border-left: 4px solid #3498db;        }
+
+        }
+
+        .sidebar {
+
+        .control-section h3 {
+
+            margin-bottom: 10px;        .header h1 {            width: 320px;
+
+            color: #85c1e9;
+
+            font-size: 1.1em;            margin: 0;            background: #2c3e50;
+
+        }
+
+            font-size: 1.8em;            color: white;
+
+        .map-container {
+
+            flex: 1;            color: #3498db;            overflow-y: auto;
+
+            position: relative;
+
+        }        }            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+
+
+
+        #map {        }
+
+            height: 100%;
+
+            width: 100%;        .header p {
+
+        }
+
+            margin: 5px 0 0 0;        .sidebar h1 {
+
+        .info-text {
+
+            margin: 10px 0;            opacity: 0.9;            background: #34495e;
+
+            line-height: 1.5;
+
+        }        }            padding: 20px;
+
+
+
+        .btn {            text-align: center;
+
+            padding: 10px 15px;
+
+            background: #3498db;        .main-container {            font-size: 1.2em;
+
+            color: white;
+
+            border: none;            display: flex;            border-bottom: 2px solid #3498db;
+
+            border-radius: 5px;
+
+            cursor: pointer;            height: calc(100vh - 80px);        }
+
+            margin: 5px;
+
+            font-size: 14px;        }
+
+        }
+
+        .layer-controls {
+
+        .btn:hover {
+
+            background: #2980b9;        .sidebar {            padding: 20px;
+
+        }
+
+            width: 300px;        }
+
+        .feature-list {
+
+            margin-left: 20px;            background: rgba(52, 73, 94, 0.95);
+
+            line-height: 1.8;
+
+        }            color: white;        .control-section {
+
+    </style>
+
+</head>            overflow-y: auto;            margin-bottom: 25px;
+
+<body>
+
+    <div class="header">            padding: 20px;            border-bottom: 1px solid #34495e;
+
+        <h1>🇮🇳 India Asset Management WebGIS</h1>
+
+        <p>3-Layer Spatial Asset Visualization System</p>        }            padding-bottom: 15px;
+
+    </div>
+
+        }
+
+    <div class="main-container">
+
+        <div class="sidebar">        .control-section {
+
+            <div class="control-section">
+
+                <h3>🗺️ System Overview</h3>            margin-bottom: 20px;        .control-section h3 {
+
+                <div class="info-text">
+
+                    <p><strong>Layer 1:</strong> Assets (Water, Forest, Agricultural, Homestead)</p>            padding: 15px;            margin-bottom: 15px;
+
+                    <p><strong>Layer 2:</strong> FRA Boundaries (IFR/CFR/CR)</p>
+
+                    <p><strong>Layer 3:</strong> Administrative Boundaries</p>            background: rgba(44, 62, 80, 0.8);            color: #3498db;
+
+                </div>
+
+            </div>            border-radius: 8px;            font-size: 1.1em;
+
+
+
+            <div class="control-section">            border-left: 4px solid #3498db;        }
+
+                <h3>🎯 Navigation</h3>
+
+                <div class="info-text">        }
+
+                    <button class="btn" onclick="window.location.href='/vanachitra'">
+
+                        🌳 Vanachitra.AI Interface        .layer-toggle {
+
+                    </button>
+
+                    <button class="btn" onclick="window.location.href='/enhanced'">        .control-section h3 {            display: flex;
+
+                        ⭐ Enhanced Demo
+
+                    </button>            margin-bottom: 10px;            align-items: center;
+
+                    <button class="btn" onclick="window.location.href='/'">
+
+                        🏠 Main Interface            color: #85c1e9;            margin-bottom: 10px;
+
+                    </button>
+
+                </div>            font-size: 1.1em;            padding: 8px;
+
+            </div>
+
+        }            background: #34495e;
+
+            <div class="control-section">
+
+                <h3>📊 Features</h3>            border-radius: 5px;
+
+                <div class="info-text">
+
+                    <ul class="feature-list">        .map-container {            transition: background 0.3s;
+
+                        <li>🛰️ Satellite imagery basemaps</li>
+
+                        <li>🔍 Interactive filtering system</li>            flex: 1;        }
+
+                        <li>📍 Realistic spatial data</li>
+
+                        <li>🏛️ Administrative boundaries</li>            position: relative;
+
+                        <li>🌲 Forest Rights Act data</li>
+
+                        <li>💧 Water resource mapping</li>        }        .layer-toggle:hover {
+
+                    </ul>
+
+                </div>            background: #4a5f7a;
+
+            </div>
+
+        #map {        }
+
+            <div class="control-section">
+
+                <h3>ℹ️ About</h3>            height: 100%;
+
+                <div class="info-text">
+
+                    <p>This is a comprehensive WebGIS system for managing and visualizing spatial assets across India with focus on:</p>            width: 100%;        .layer-toggle input[type="checkbox"] {
+
+                    <br>
+
+                    <p>• Forest Rights Act (FRA) compliance</p>        }            margin-right: 10px;
+
+                    <p>• Asset management and tracking</p>
+
+                    <p>• Administrative boundary management</p>            transform: scale(1.2);
+
+                    <p>• Real-time spatial analytics</p>
+
+                </div>        .info-text {        }
+
+            </div>
+
+        </div>            margin: 10px 0;
+
+
+
+        <div class="map-container">            line-height: 1.5;        .filter-group {
+
+            <div id="map"></div>
+
+        </div>        }            margin-bottom: 15px;
+
+    </div>
+
+        }
+
+    <!-- Leaflet JavaScript -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>        .btn {
+
+    
+
+    <script>            padding: 10px 15px;        .filter-group label {
+
+        // Initialize map centered on India
+
+        const map = L.map('map').setView([20.5937, 78.9629], 5);            background: #3498db;            display: block;
+
+
+
+        // Add satellite base layer            color: white;            margin-bottom: 5px;
+
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+
+            attribution: '© Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN',            border: none;            font-weight: 500;
+
+            maxZoom: 18
+
+        }).addTo(map);            border-radius: 5px;        }
+
+
+
+        // Add a welcome marker            cursor: pointer;
+
+        const indiaCenter = L.marker([20.5937, 78.9629]).addTo(map);
+
+        indiaCenter.bindPopup('<div style="text-align: center; padding: 10px;"><h3>🇮🇳 Welcome to India WebGIS</h3><p>Navigate to specific interfaces using the sidebar.</p></div>').openPopup();            margin: 5px;        .filter-group select,
+
+
+
+        // Add scale control            font-size: 14px;        .filter-group input {
+
+        L.control.scale({
+
+            position: 'bottomleft',        }            width: 100%;
+
+            metric: true,
+
+            imperial: false            padding: 8px;
+
+        }).addTo(map);
+
+        .btn:hover {            border: none;
+
+        console.log('India WebGIS initialized successfully!');
+
+    </script>            background: #2980b9;            border-radius: 4px;
+
+</body>
+
+</html>        }            background: #34495e;
+
+    </style>            color: white;
+
+</head>            font-size: 14px;
+
+<body>        }
+
+    <div class="header">
+
+        <h1>🇮🇳 India Asset Management WebGIS</h1>        .filter-group select option {
+
+        <p>3-Layer Spatial Asset Visualization System</p>            background: #2c3e50;
+
+    </div>            color: white;
+
+        }
+
+    <div class="main-container">
+
+        <div class="sidebar">        .btn {
+
+            <div class="control-section">            padding: 10px 15px;
+
+                <h3>🗺️ System Overview</h3>            border: none;
+
+                <div class="info-text">            border-radius: 5px;
+
+                    <p><strong>Layer 1:</strong> Assets (Water, Forest, Agricultural, Homestead)</p>            cursor: pointer;
+
+                    <p><strong>Layer 2:</strong> FRA Boundaries (IFR/CFR/CR)</p>            font-weight: 500;
+
+                    <p><strong>Layer 3:</strong> Administrative Boundaries</p>            transition: background 0.3s;
+
+                </div>            margin: 5px;
+
+            </div>            display: inline-block;
+
+        }
+
+            <div class="control-section">
+
+                <h3>🎯 Navigation</h3>        .btn-primary {
+
+                <div class="info-text">            background: #3498db;
+
+                    <button class="btn" onclick="window.location.href='/vanachitra'">            color: white;
+
+                        🌳 Vanachitra.AI Interface        }
+
+                    </button>
+
+                    <button class="btn" onclick="window.location.href='/enhanced'">        .btn-primary:hover {
+
+                        ⭐ Enhanced Demo            background: #2980b9;
+
+                    </button>        }
+
+                    <button class="btn" onclick="window.location.href='/'">
+
+                        🏠 Main Interface        .btn-secondary {
+
+                    </button>            background: #95a5a6;
+
+                </div>            color: white;
+
+            </div>        }
+
+
+
+            <div class="control-section">        .btn-secondary:hover {
+
+                <h3>📊 Features</h3>            background: #7f8c8d;
+
+                <div class="info-text">        }
+
+                    <ul style="margin-left: 20px; line-height: 1.8;">
+
+                        <li>🛰️ Satellite imagery basemaps</li>        .map-container {
+
+                        <li>🔍 Interactive filtering system</li>            flex: 1;
+
+                        <li>📍 Realistic spatial data</li>            position: relative;
+
+                        <li>🏛️ Administrative boundaries</li>        }
+
+                        <li>🌲 Forest Rights Act data</li>
+
+                        <li>💧 Water resource mapping</li>        #map {
+
+                    </ul>            height: 100vh;
+
+                </div>            width: 100%;
+
+            </div>        }
+
+
+
+            <div class="control-section">        .map-controls {
+
+                <h3>ℹ️ About</h3>            position: absolute;
+
+                <div class="info-text">            top: 10px;
+
+                    <p>This is a comprehensive WebGIS system for managing and visualizing spatial assets across India with focus on:</p>            right: 10px;
+
+                    <br>            z-index: 1000;
+
+                    <p>• Forest Rights Act (FRA) compliance</p>            display: flex;
+
+                    <p>• Asset management and tracking</p>            flex-direction: column;
+
+                    <p>• Administrative boundary management</p>            gap: 5px;
+
+                    <p>• Real-time spatial analytics</p>        }
+
+                </div>
+
+            </div>        .map-btn {
+
+        </div>            background: white;
+
+            border: 2px solid #ccc;
+
+        <div class="map-container">            border-radius: 4px;
+
+            <div id="map"></div>            padding: 8px;
+
+        </div>            cursor: pointer;
+
+    </div>            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+            transition: all 0.3s;
+
+    <!-- Leaflet JavaScript -->        }
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+            .map-btn:hover {
+
+    <script>            background: #f0f0f0;
+
+        // Initialize map centered on India            border-color: #3498db;
+
+        const map = L.map('map').setView([20.5937, 78.9629], 5);        }
+
+
+
+        // Add satellite base layer        .legend {
+
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {            background: white;
+
+            attribution: '© Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN',            padding: 15px;
+
+            maxZoom: 18            border-radius: 5px;
+
+        }).addTo(map);            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+            font-size: 14px;
+
+        // Add a welcome marker            line-height: 1.5;
+
+        const indiaCenter = L.marker([20.5937, 78.9629]).addTo(map);        }
+
+        indiaCenter.bindPopup(`
+
+            <div style="text-align: center; padding: 10px;">        .legend h4 {
+
+                <h3>🇮🇳 Welcome to India WebGIS</h3>            margin-bottom: 10px;
+
+                <p>Navigate to specific interfaces:</p>            color: #2c3e50;
+
+                <br>            border-bottom: 2px solid #3498db;
+
+                <button onclick="window.location.href='/vanachitra'" style="padding: 8px 12px; margin: 5px; background: #3498db; color: white; border: none; border-radius: 4px; cursor: pointer;">            padding-bottom: 5px;
+
+                    🌳 Vanachitra.AI        }
+
+                </button>
+
+                <br>        .legend-item {
+
+                <button onclick="window.location.href='/enhanced'" style="padding: 8px 12px; margin: 5px; background: #e74c3c; color: white; border: none; border-radius: 4px; cursor: pointer;">            display: flex;
+
+                    ⭐ Enhanced Demo            align-items: center;
+
+                </button>            margin-bottom: 8px;
+
+            </div>        }
+
+        `).openPopup();
+
+        .legend-color {
+
+        // Add scale control            width: 20px;
+
+        L.control.scale({            height: 15px;
+
+            position: 'bottomleft',            margin-right: 8px;
+
+            metric: true,            border: 1px solid #ccc;
+
+            imperial: false            border-radius: 3px;
+
+        }).addTo(map);        }
+
+
+
+        console.log('India WebGIS initialized successfully!');        .info-panel {
+
+    </script>            position: absolute;
+
+</body>            bottom: 10px;
+
+</html>            left: 10px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-width: 250px;
+            z-index: 1000;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 2000;
+            display: none;
+        }
+
+        .layer-opacity {
+            width: 100%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Sidebar with controls -->
+        <div class="sidebar">
+            <h1>India Asset Management</h1>
+            
+            <div class="layer-controls">
+                <!-- Layer Controls -->
+                <div class="control-section">
+                    <h3>Map Layers</h3>
+                    
+                    <!-- Assets Layer -->
+                    <div class="layer-toggle">
+                        <input type="checkbox" id="assets-layer" checked>
+                        <label for="assets-layer">Assets Layer</label>
+                    </div>
+                    <input type="range" id="assets-opacity" class="layer-opacity" min="0" max="1" step="0.1" value="0.8">
+                    
+                    <!-- FRA Boundaries Layer -->
+                    <div class="layer-toggle">
+                        <input type="checkbox" id="fra-layer" checked>
+                        <label for="fra-layer">IFR/CFR/CR Boundaries</label>
+                    </div>
+                    <input type="range" id="fra-opacity" class="layer-opacity" min="0" max="1" step="0.1" value="0.7">
+                    
+                    <!-- Administrative Boundaries Layer -->
+                    <div class="layer-toggle">
+                        <input type="checkbox" id="admin-layer" checked>
+                        <label for="admin-layer">Administrative Boundaries</label>
+                    </div>
+                    <input type="range" id="admin-opacity" class="layer-opacity" min="0" max="1" step="0.1" value="0.6">
+                </div>
+
+                <!-- Asset Type Filters -->
+                <div class="control-section">
+                    <h3>Asset Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label>Asset Type:</label>
+                        <select id="asset-type-filter">
+                            <option value="">All Assets</option>
+                            <option value="water">Water Bodies</option>
+                            <option value="forest">Forest</option>
+                            <option value="agricultural">Agricultural Land</option>
+                            <option value="homestead">Homestead</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Minimum Area (km²):</label>
+                        <input type="number" id="min-area-filter" placeholder="0" min="0" step="0.1">
+                    </div>
+                </div>
+
+                <!-- Geographic Filters -->
+                <div class="control-section">
+                    <h3>Geographic Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label>State:</label>
+                        <select id="state-filter">
+                            <option value="">All States</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>District:</label>
+                        <select id="district-filter">
+                            <option value="">All Districts</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Village:</label>
+                        <select id="village-filter">
+                            <option value="">All Villages</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- FRA Type Filters -->
+                <div class="control-section">
+                    <h3>FRA Type Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label>FRA Type:</label>
+                        <select id="fra-type-filter">
+                            <option value="">All Types</option>
+                            <option value="IFR">Individual Forest Rights</option>
+                            <option value="CFR">Community Forest Rights</option>
+                            <option value="CR">Community Resource Rights</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Status:</label>
+                        <select id="status-filter">
+                            <option value="">All Status</option>
+                            <option value="approved">Approved</option>
+                            <option value="pending">Pending</option>
+                            <option value="rejected">Rejected</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="control-section">
+                    <h3>Actions</h3>
+                    <button class="btn btn-primary" id="apply-filters">Apply Filters</button>
+                    <button class="btn btn-secondary" id="clear-filters">Clear Filters</button>
+                    <button class="btn btn-secondary" id="reset-view">Reset View</button>
+                    <button class="btn btn-secondary" id="toggle-satellite">Toggle Satellite</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div id="map"></div>
+            
+            <!-- Map Controls -->
+            <div class="map-controls">
+                <button class="map-btn" id="zoom-india" title="Zoom to India">🇮🇳</button>
+                <button class="map-btn" id="fullscreen" title="Fullscreen">⛶</button>
+                <button class="map-btn" id="measure" title="Measure">📏</button>
+            </div>
+
+            <!-- Info Panel -->
+            <div class="info-panel" id="info-panel">
+                <h4>Click on features for details</h4>
+                <div id="feature-info">Select a feature on the map to see its properties.</div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div class="loading" id="loading">
+                <h4>Loading...</h4>
+                <p>Please wait while we load the map data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Leaflet Draw -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='india_webgis.js') }}"></script>
+</body>
+</html>

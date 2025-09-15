@@ -252,8 +252,8 @@ fra_manager = FRAWebGISManager(FRA_GEOJSON_FILE, FRA_ANALYTICS_FILE)
 
 @app.route('/')
 def index():
-    """Serve the FRA WebGIS main page."""
-    return render_template('fra_webgis.html')
+    """Serve the FRA WebGIS main page - redirect to Vanachitra.AI."""
+    return render_template('vanachitra.html')
 
 @app.route('/india')
 def india_webgis():
