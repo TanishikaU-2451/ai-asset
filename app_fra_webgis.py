@@ -16,6 +16,7 @@ app = Flask(__name__)
 # Configuration
 FRA_GEOJSON_FILE = 'output/fra_claims.geojson'
 FRA_ANALYTICS_FILE = 'output/fra_analytics.json'
+VANACHITRA_FRA_FILE = 'output/vanachitra_fra_data.geojson'
 STATIC_DIR = 'static'
 TEMPLATES_DIR = 'templates'
 
@@ -263,6 +264,26 @@ def india_webgis():
 def enhanced_webgis():
     """Serve the Enhanced India Asset Management WebGIS Demo."""
     return render_template('india_webgis_enhanced.html')
+
+@app.route('/vanachitra')
+def vanachitra():
+    """Vanachitra.AI FRA WebGIS interface."""
+    return render_template('vanachitra.html')
+
+@app.route('/api/vanachitra_fra_data')
+def api_vanachitra_fra_data():
+    """Serve Vanachitra.AI FRA data as GeoJSON."""
+    try:
+        if not os.path.exists(VANACHITRA_FRA_FILE):
+            return jsonify({'error': 'Vanachitra FRA data not found. Please generate it first.'}), 404
+        
+        with open(VANACHITRA_FRA_FILE, 'r') as f:
+            data = json.load(f)
+        
+        return jsonify(data)
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/assets')
 def get_assets():

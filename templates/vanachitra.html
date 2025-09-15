@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanachitra.AI - Forest Rights Act WebGIS</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 50%, #2d5016 100%);
+            overflow: hidden;
+        }
+
+        .header {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            z-index: 1000;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #3498db;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .header .subtitle {
+            margin: 5px 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .header .tagline {
+            font-size: 0.9em;
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        .main-container {
+            display: flex;
+            height: calc(100vh - 110px);
+        }
+
+        .sidebar {
+            width: 380px;
+            background: rgba(52, 73, 94, 0.95);
+            color: white;
+            overflow-y: auto;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 3px 0 20px rgba(0,0,0,0.4);
+        }
+
+        .control-section {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(44, 62, 80, 0.8);
+            border-radius: 12px;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .control-section h3 {
+            margin-bottom: 15px;
+            color: #85c1e9;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+
+        .control-section h3::before {
+            content: "🌳";
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+
+        .fra-hierarchy {
+            background: rgba(85, 193, 233, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(85, 193, 233, 0.3);
+        }
+
+        .hierarchy-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 8px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 6px;
+        }
+
+        .hierarchy-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 12px;
+            border: 2px solid white;
+        }
+
+        .hierarchy-text {
+            flex: 1;
+        }
+
+        .hierarchy-count {
+            background: rgba(52, 152, 219, 0.8);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .filter-group {
+            margin-bottom: 15px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #85c1e9;
+            font-size: 1.05em;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #2c3e50;
+            font-size: 14px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 2px solid rgba(52, 152, 219, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.4);
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #2980b9, #1f4e79);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(45deg, #7f8c8d, #5d6d7e);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(45deg, #5d6d7e, #34495e);
+            transform: translateY(-2px);
+        }
+
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        .map-overlay {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .map-control-btn {
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+
+        .map-control-btn:hover {
+            background: white;
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .info-panel {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            min-width: 350px;
+            max-width: 450px;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(111, 168, 36, 0.3);
+        }
+
+        .info-panel h4 {
+            margin-bottom: 12px;
+            color: #2d5016;
+            border-bottom: 2px solid #6fa824;
+            padding-bottom: 8px;
+            font-size: 1.2em;
+        }
+
+        .info-content {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(111, 168, 36, 0.2);
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #2d5016;
+        }
+
+        .info-value {
+            color: #4a7c1c;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: rgba(85, 193, 233, 0.15);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid rgba(85, 193, 233, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            background: rgba(85, 193, 233, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #85c1e9;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .legend {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            font-size: 14px;
+            line-height: 1.6;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(111, 168, 36, 0.3);
+        }
+
+        .legend h4 {
+            margin-bottom: 15px;
+            color: #2d5016;
+            border-bottom: 2px solid #6fa824;
+            padding-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .legend-section {
+            margin-bottom: 15px;
+        }
+
+        .legend-section h5 {
+            margin-bottom: 8px;
+            color: #4a7c1c;
+            font-size: 1em;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 15px;
+            margin-right: 10px;
+            border: 1px solid #333;
+            border-radius: 3px;
+        }
+
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(44, 62, 80, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .loading-content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            border: 3px solid #3498db;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            background: rgba(231, 76, 60, 0.9);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 2px solid #c0392b;
+        }
+
+        .success {
+            background: rgba(46, 204, 113, 0.9);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 2px solid #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌳 Vanachitra.AI</h1>
+        <div class="subtitle">Forest Rights Act - WebGIS Visualization System</div>
+        <div class="tagline">Empowering Forest Communities through Digital Mapping</div>
+    </div>
+
+    <div class="main-container">
+        <!-- Enhanced Sidebar -->
+        <div class="sidebar">
+            <!-- FRA Hierarchy Display -->
+            <div class="control-section">
+                <h3>🏛️ FRA Hierarchy</h3>
+                <div class="fra-hierarchy">
+                    <div class="hierarchy-item">
+                        <div class="hierarchy-icon" style="background: linear-gradient(45deg, #8B4513, #A0522D);"></div>
+                        <div class="hierarchy-text">
+                            <strong>CFR - Community Forest Resources</strong><br>
+                            <small>Large forest areas managed by Gram Sabha</small>
+                        </div>
+                        <div class="hierarchy-count" id="cfr-count">-</div>
+                    </div>
+                    
+                    <div class="hierarchy-item">
+                        <div class="hierarchy-icon" style="background: linear-gradient(45deg, #FF6B35, #F7931E);"></div>
+                        <div class="hierarchy-text">
+                            <strong>IFR - Individual Forest Rights</strong><br>
+                            <small>Small plots allocated to tribal households</small>
+                        </div>
+                        <div class="hierarchy-count" id="ifr-count">-</div>
+                    </div>
+                    
+                    <div class="hierarchy-item">
+                        <div class="hierarchy-icon" style="background: linear-gradient(45deg, #9B59B6, #8E44AD);"></div>
+                        <div class="hierarchy-text">
+                            <strong>CR - Community Rights</strong><br>
+                            <small>Shared resources like grazing land, ponds</small>
+                        </div>
+                        <div class="hierarchy-count" id="cr-count">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Statistics -->
+            <div class="control-section">
+                <h3>📊 Quick Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-features">-</div>
+                        <div class="stat-label">Total Features</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-area">-</div>
+                        <div class="stat-label">Total Area (Ha)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="approved-claims">-</div>
+                        <div class="stat-label">Approved Claims</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="pending-claims">-</div>
+                        <div class="stat-label">Pending Claims</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="control-section">
+                <h3>🔍 Filters</h3>
+                
+                <div class="filter-group">
+                    <label>State:</label>
+                    <select id="state-filter">
+                        <option value="">All States</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Tripura">Tripura</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>District:</label>
+                    <select id="district-filter">
+                        <option value="">All Districts</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Village:</label>
+                    <select id="village-filter">
+                        <option value="">All Villages</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>FRA Type:</label>
+                    <select id="fra-type-filter">
+                        <option value="">All Types</option>
+                        <option value="Community Forest Resource Rights">CFR - Community Forest Resource Rights</option>
+                        <option value="Individual Forest Rights">IFR - Individual Forest Rights</option>
+                        <option value="Community Rights">CR - Community Rights</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Water Body">Water Body</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Status:</label>
+                    <select id="status-filter">
+                        <option value="">All Status</option>
+                        <option value="Approved">✅ Approved</option>
+                        <option value="Pending">⏳ Pending</option>
+                        <option value="Under Review">🔄 Under Review</option>
+                    </select>
+                </div>
+                
+                <div class="btn-group">
+                    <button class="btn btn-primary" id="apply-filters">🔍 Apply Filters</button>
+                    <button class="btn btn-secondary" id="clear-filters">🗑️ Clear</button>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="control-section">
+                <h3>⚡ Actions</h3>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" id="zoom-to-data">🎯 Zoom to Data</button>
+                    <button class="btn btn-secondary" id="export-data">💾 Export Data</button>
+                </div>
+                <br>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" id="show-hierarchy">🏗️ Show Hierarchy</button>
+                    <button class="btn btn-secondary" id="toggle-labels">🏷️ Toggle Labels</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div id="map"></div>
+            
+            <!-- Map Controls -->
+            <div class="map-overlay">
+                <button class="map-control-btn" id="fullscreen" title="Fullscreen">⛶</button>
+                <button class="map-control-btn" id="reset-view" title="Reset View">🏠</button>
+                <button class="map-control-btn" id="layer-toggle" title="Toggle Layers">👁️</button>
+            </div>
+
+            <!-- Info Panel - Removed to avoid map obstruction -->
+
+            <!-- Loading Overlay -->
+            <div class="loading-overlay" id="loading-overlay">
+                <div class="loading-content">
+                    <div class="spinner"></div>
+                    <h3>🌳 Loading Vanachitra.AI...</h3>
+                    <p>Preparing Forest Rights Act spatial data</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Vanachitra.AI JavaScript -->
+    <script src="{{ url_for('static', filename='vanachitra.js') }}"></script>
+</body>
+</html>
